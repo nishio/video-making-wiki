@@ -86,6 +86,11 @@ sources:
 - **描画方式は「名前を書かない JS/Canvas」が最多で、Remotion・HyperFrames・Manim は少数**。西尾の方式（[[exp-html-capture-pipeline]] の canvas＋`renderFrame(f)`＋headless Chrome）は、この「名前のない JS」の側に入る。talk の長い解説では Manim と Remotion が名指しされた
 - **確認の項目に「発音」と「音声の全編」が入っている**のは、[[exp-qualia-video]] の「機械 QA が通っても読み・声質は人間が見ないと分からない」、[[exp-galleria-tts-and-singing]] の「最後は耳」と同じ向き
 
+
+## Updates
+
+- 2026-11-09: 「brief contagion の分析は Movez が紹介している」について、その語は repo の 9/26 版 README の注釈 1 行に出て翌日に消えたもので、分析と呼べるものは無かった（[[web-opus-athemeroy-awesome-opus-5-5-videos]]）
+
 ## Open Questions
 
 - 教育・科学の割合は、分類器（Gemini 3.8 Flash）のラベルと X の検索語の両方に左右される。talk 型が本当に少なかったのか、拡散されにくかっただけかは、このデータからは分からない

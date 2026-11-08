@@ -41,6 +41,13 @@ sources:
 - 参照の入手そのものが制約になる（商用アニメの OP を保存する経路は限られる）
 - 既存曲を使う場合の権利（作曲の権利と原盤の権利は別）を扱っていない
 
+
+## Updates
+
+- 2026-11-09（第 2 回サーベイ、opus の担当の読みから）: 記事の本文は Substack 版 https://movez.substack.com/p/how-to-build-motion-design-studio （掲載 2026-10-04）で読める。上の「元の投稿を開いていない」は、この版で確かめ直せる
+- 同: 「9,500〜19,000 字…12 時間…と Thariq の言葉を引いている」のうち、約 9,600 字と 12 時間は Donald Jewkes の側の数字で、Thariq が言ったのは「投稿は one-shot、プロンプトは 1 万字で、良い見立てと skill・例・API キー付き」まで（[[web-opus-donaldjewkes-claude-pop-brief]]）
+- 同: "brief contagion" は athemeroy の repo の 2026-09-26 版 README の表の注釈 1 行に出ただけで、定義も測定も無く、翌日の commit「tighten source claims」で消えた。出力の似通いを測った資料は見つからなかった（[[web-opus-athemeroy-awesome-opus-5-5-videos]]）。repo は awesome-claude-5-5-videos に改名済み
+
 ## Open Questions
 
 - 「全項目 8 点以上まで回す」自己採点は、[[experience-lessons-2026-11]] の「機械の QA に通っても見やすさは保証されない」とどう両立するか。採点が人間の評価とどこまで合うかは、Polis では修正版をレンダリング前に止めたので確かめていない
