@@ -83,3 +83,6 @@ sources:
 ## Updates
 
 - 2026-11-09: 取りこぼしの経験 [[exp-thinklet-reading-demo-video]]（52 秒、ナレーション入り、LT に組み込む候補）が入った。「次に調べること」の 1 は、まずこの動画を 9/9 か 10/2 の LT で流したか、流したならナレーションをどうしたかを西尾に確かめるのが早い。embed への当てはめは [[embed]] の Updates
+
+- 2026-11-09: 「次に調べること」の 1 に西尾が答えた: embed は**流しっぱなしの前提**。THINKLET の動画も流しっぱなしで流した。上の表の embed の「誰が時間を握るか: 話し手」と「構成の型: 見方を先に言う → 流す → 語る」は、西尾の embed には当たらない（[[embed]] の Updates）
+- 2026-11-09: 経験側に [[exp-timeline-2026]]（Opus 5.5 の公開前後の時系列）、文献側に [[web-movez-opus-motion-design-course]]・[[web-taelin-bend-nge-feedback]]（tweet-memo から。当時の流行の作り方と人間側のフィードバック）を足した

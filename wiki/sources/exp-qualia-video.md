@@ -113,3 +113,7 @@ Set-Location C:\Users\nishi\claude-win\qualia-video-journey
 - journey v4 は公開されたか、見た人にどう受けたかは記録が無い
 - 「静止が既定」は解説（talk）での結論。promo 型でも同じかは試していない
 - Wan2.2 の C 案は「idle の微小な動き」だった。説明対象そのものを動かす I2V（指差し等）は比べていない
+
+## Updates
+
+- 2026-11-09: 西尾（chat）: 「この動画がもっと前に作ってたものでOpus5.5がすごいってなったのがこの後の話」（makingof の YouTube qntzIC2zNK8「AI生成解説動画v2」、2026-08-11 公開・1 分 49 秒）。Opus 5.5 の公開（2026-09-22）以前の作り方の代表として [[exp-timeline-2026]] に置いた

@@ -28,3 +28,11 @@
 - 西尾の指摘「Thinkletの読書支援ツールの解説の動画を作った話は？」で最初の抽出の取りこぼしが分かり、Mac の Claude が書いた sources/exp-thinklet-reading-demo-video.md をそのまま置いた（~/handoffs-from-mac/2026-11-09-video-making-wiki/ から）
 - concepts/three-video-types.md の「経験の内訳」の embed の行に追記（LT に組み込む候補、実際に流したかは未確認）
 - concepts/embed.md に Updates: ナレーション入りの動画を発表で流すときの衝突、待ち時間を説明に変えた形、「ライブのデモを録画で置き換える」用途
+
+## [2026-11-09 13:30] ingest | 西尾の回答（embed は流しっぱなし）と chat の補足、時系列、Opus 5.5 期の外の知見 2 本
+
+- Mac の Claude が書いた（CyEC2 のセッションの待機中に Mac の clone で編集して push）
+- 西尾の回答: embed は「流しっぱなしの前提」、THINKLET の動画も「流しっぱなし」→ embed・three-video-types・survey summary の Updates。サーベイの「話し手が時間を握る（Rosling 型）」は西尾の embed の前提ではない
+- 西尾の chat の補足（YouTube 5 本）を origin の Updates に原文で。残テは 2026-10-01 に公開済みで、exp-sutra-songs-on-music の「未公開」は古かった。Gyazo 47 秒版は本人評価「Jevの凄さのアピール重視で技術の詳細を伝えるには適切ではない」
+- 新規: exp-timeline-2026（Opus 5.5 公開 9/22 前後の時系列）、web-movez-opus-motion-design-course・web-taelin-bend-nge-feedback（tweet-memo の要約から。元投稿は未読）
+
