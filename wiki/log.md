@@ -29,7 +29,7 @@
 - concepts/three-video-types.md の「経験の内訳」の embed の行に追記（LT に組み込む候補、実際に流したかは未確認）
 - concepts/embed.md に Updates: ナレーション入りの動画を発表で流すときの衝突、待ち時間を説明に変えた形、「ライブのデモを録画で置き換える」用途
 
-## [2026-11-09 13:30] ingest | 西尾の回答（embed は流しっぱなし）と chat の補足、時系列、Opus 5.5 期の外の知見 2 本
+## [2026-11-09 01:21] ingest | 西尾の回答（embed は流しっぱなし）と chat の補足、時系列、Opus 5.5 期の外の知見 2 本
 
 - Mac の Claude が書いた（CyEC2 のセッションの待機中に Mac の clone で編集して push）
 - 西尾の回答: embed は「流しっぱなしの前提」、THINKLET の動画も「流しっぱなし」→ embed・three-video-types・survey summary の Updates。サーベイの「話し手が時間を握る（Rosling 型）」は西尾の embed の前提ではない
@@ -51,7 +51,7 @@
 
 ## [2026-11-09 04:40] lint | 機械的 lint のみ: 130 ページ、重複 0・孤立 0・壊れたリンク 0・index 未登録 0・フロントマター不備 0。意味的 lint は未実施
 
-## [2026-11-09 14:40] schema | 目的を西尾の言葉で書いた
+## [2026-11-09 07:18] schema | 目的を西尾の言葉で書いた
 
 - 西尾: 「目的: 作るための手段を調査サーベイし、今後の表現手段を増やすこと」。CLAUDE.md のテーマと index の冒頭、llm-wiki の wikis.yaml の purpose に入れ、起点の Updates に記録
 - GitHub の正本の「作成待ち」を消した（西尾が作成済み）
