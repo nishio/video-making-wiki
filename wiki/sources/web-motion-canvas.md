@@ -2,7 +2,7 @@
 type: source
 summary: Motion Canvas の公式ドキュメント。TypeScript の generator で「yield ＝ このコマは描けた」として時間を書き、エディタでリアルタイムにプレビューし、ナレーションの合図を waitUntil の時刻イベントとしてエディタ上でドラッグして合わせる、説明用ベクターアニメの道具（MIT）。動画編集ソフトの代わりではないと自ら書く
 video_types: [talk, embed]
-url: https://motioncanvas.io/docs/
+url: https://motion-canvas.io/docs/（ハイフンあり。ハイフンなしの motioncanvas.io は別の会社のサイト。本文は GitHub の docs ソースで読んだ）
 author: motion-canvas（OSS プロジェクト。docs は GitHub motion-canvas/motion-canvas の packages/docs）
 published: unknown（docs は継続更新。最新リリース v3.17.2 は 2024-12-14、v3.18.0-alpha.0 は 2025-02-16）
 retrieved: 2026-11-09

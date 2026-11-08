@@ -73,6 +73,10 @@ sources:
 - **ジャンルによってペースが違う**は、この wiki の「三つの型」（[[three-video-types]]）と似た問題意識。Sanderson の分け方は語り手の役（学生・専門家・教師・ジャーナリスト）で、西尾の分け方（流す場所・使い方）とは軸が違う
 - **良いマイク**: 音の質を軽く見るなという助言は、TTS の声と読みの誤りに何度も手を入れた経験（[[exp-qualia-video]]、[[exp-galleria-tts-and-singing]]）と並べて読める
 
+## Updates
+
+- 2026-11-09: 同じ FAQ・SoME を台本・構成・ジャンル（Know your genre）・AI 方針の側から読んだページが [[web-3blue1brown-exposition-advice]] にある。このページは embed の見せ方と Manim の側
+
 ## Open Questions
 
 - Sanderson の助言は作り手の経験則で、効果を測っていない。「無意味なアニメーションを避けよ」は、装飾的なアニメーションは効かないというメタ分析の結果（別担当の web-berney-betrancourt-2016-animation-meta-analysis）と向きは合うが、Sanderson の文自体を検証済みの効果として引かない
