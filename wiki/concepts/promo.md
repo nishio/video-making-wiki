@@ -71,3 +71,9 @@ sources:
 - Opus 5.5 期の流行の中心は promo だった（athemeroy のデータセットでゲーム・広告・AI の話題が 57.7%）。house rules の「2〜4 秒ごとに新しいこと」「1 秒を超えて止めない」は西尾の promo の経験と一致する（[[after-opus55]]）
 - 速いカット・叩き込みは閃光の基準（ITU-R BT.1702、NHK・民放連の 1 秒 3 回）と字幕の最短表示（0.5 秒）に当たりうる（[[design-fundamentals]]）
 
+### 2026-11-09 第 3 回サーベイから
+
+- 出す場所の 2026-11 時点の仕様の 1 表は [[checks-and-finishing]]。X は、ヘルプ（ウェブ 40fps・無料 140 秒）と API（60fps・20 分）で数値が食い違う。最初のコマがカバーになるのは、TikTok と Instagram では API の既定として公式に書かれている
+- 拍に合わせて光らせる演出は、書き出しのたびに閃光の検査を通す。BPM を上げた版こそ測る（[[web-check-flash-ea-iris]]）
+- 実物の収録（Playwright の screencast、OBS、自動ズーム）、ACE-Step の曲、Blender・three.js は [[expression-means]]
+- 開示: リアルな生成カットは、TikTok・Meta・YouTube のどれでも開示が要る。X は一般の開示義務が無いが、JASRAC・NexTone の UGC の一覧に無い（[[web-rights-tiktok-meta-aigc-labels]]、[[web-rights-jasrac-nextone-ugc-music]]）

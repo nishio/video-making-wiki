@@ -65,3 +65,9 @@ sources:
 - 実物を台本で動かして撮る道具（Charm の VHS、shot-scraper）は、作品の promo に効く別の系統（[[web-promo2-vhs-shot-scraper-demos-as-code]]、[[work-promotion-video]]）
 - 丸ごと生成のモデルとの組み合わせ方は [[work-promotion-video]]
 
+### 2026-11-09 第 3 回サーベイから
+
+- 道具の範囲を、収録・図・2D/3D・声・音・文字・批評役に広げた一覧は [[expression-means]]。検査と仕上げの道具は [[checks-and-finishing]]
+- 西尾の方式（canvas の `toDataURL`）に載るかの要点: SVG・DOM の道具（Mermaid、D2、Excalidraw、GSAP、lottie-web の svg 描画）は `page.screenshot` が要る。時刻の止め方は、SMIL なら `setCurrentTime`、CSS なら `getAnimations`、GSAP なら paused timeline の seek（[[web-means-diagram-mermaid]]、[[web-means-3d-gsap-svg-seek]]）
+- WebGL は headless で GPU が切られやすい。`--use-gl=angle` で起動し、`UNMASKED_RENDERER_WEBGL` で確かめる（[[web-means-3d-threejs-headless-webgl]]）
+- Open Questions の「Mac の Hiragino 依存」への答えの候補: フォントのファイルを作品に同梱して `@font-face` で指す。Ubuntu の `fonts-noto-cjk` に Black は無い（[[web-means-font-fontconfig-noto-cjk-linux]]）

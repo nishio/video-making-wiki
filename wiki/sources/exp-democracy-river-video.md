@@ -88,3 +88,10 @@ sources:
 
 - X で最後まで見られたかは数字を見ていない。「冒頭に問い・最後に回収・進捗バー」は設計意図のまま
 - 英語話者に届くのは、ナレーション版か字幕だけの英語版か。今回は西尾の指定でナレーションを入れた
+
+## Updates
+
+### 2026-11-09 第 3 回サーベイから
+
+- 英語版の `gpt-4o-mini-tts` は、2027-01-06 に終了する（2026-10-01 告知）。後継は `/v1/audio/speech` で使えないので、作り直すときは API の作りから変わる（[[web-means-voice-google-azure-openai-elevenlabs-tts]]）
+- `loudnorm=I=-16:TP=-1.5:LRA=11` は 1 パスなので dynamic で動いている（[[web-check-loudness-ffmpeg-loudnorm-ebur128]]）

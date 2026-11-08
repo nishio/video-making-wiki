@@ -118,3 +118,9 @@ ffmpeg -i ../out/video_noaudio.mp4 -i ../out/audio.wav -c:v copy -c:a aac -b:a 2
 - X のヘルプはウェブからのアップロードを 40fps までとしている（[[web-x-video-ads-best-practices]]）。60fps の書き出しを X に出したときの実際の挙動は未確認
 - 外の Opus 5.5 期の作り手は 6〜8 プロセスで並列に撮っている。Remotion も純関数であることを並列化に使う（[[after-opus55]]、[[web-remotion]]）
 
+### 2026-11-09 第 3 回サーベイから
+
+- `loudnorm=I=-16:TP=-1.5:LRA=11` は 1 パスなので dynamic で動き、`-ar` が無ければ 192 kHz で出ている可能性がある（[[web-check-loudness-ffmpeg-loudnorm-ebur128]]）。2 パスの手順は [[ready-to-start-2026-11-10]] の 5
+- YouTube の推奨は、音声 48 kHz・ステレオ 384 kbps と faststart（[[web-check-spec-youtube-upload-shorts]]）
+- Hiragino 依存の代わりに、OFL のフォントを作品に同梱する手順は [[web-means-font-sil-ofl-noto-zen-mincho]]
+- SVG・DOM の道具を混ぜるなら `toDataURL` では撮れず、`page.screenshot` が要る（[[expression-means]]）

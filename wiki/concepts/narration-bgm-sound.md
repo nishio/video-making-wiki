@@ -70,3 +70,17 @@ sources:
 - 表現としての音（Chion の synchresis・added value、Murch の音と映像のずれ）は [[web-layout-chion-audio-vision-murch-sound]] と [[design-fundamentals]]。学習研究（Moreno & Mayer）とは測るものが違う
 - Opus 5.5 期の作り手は「モデルは聞けない」と書き、ラウドネス・同期の機械検査と TTS の文字起こしでの照合で補っている（[[after-opus55]]）
 
+### 2026-11-09 第 3 回サーベイから
+
+- **経験の `loudnorm=I=-16:TP=-1.5:LRA=11` は 1 パスなので dynamic で動いている**。loudnorm の作者のブログの 1 パスの例と一字一句同じ。2 パスでも、入力の LRA と TP が条件を満たさないと線形にならない。ffmpeg-normalize の `--keep-loudness-range-target --auto-lower-loudness-target` で避けられる（[[web-check-loudness-ffmpeg-loudnorm-ebur128]]、[[web-check-loudness-ffmpeg-normalize]]）
+- BGM の調達の道は 4 つで、権利の重さが違う。
+  - 手元の生成モデル（ACE-Step 1.5、MIT、生成物の商用可）
+  - numpy の合成
+  - 素材集（Content ID への登録と AI 学習は禁止。OpenTracks は政治・宗教の制作物に使えない）
+  - 商用サービス（無料プランは動画に使えない）
+  - 使った素材は URL と取得日を台帳に残す（[[web-means-sound-ace-step-yue2-diffrhythm]]、[[web-means-sound-soundeffect-lab-maoudamashii-opentracks]]、[[web-means-sound-suno-udio-elevenlabs-music-terms]]）
+- 読みの直し方はエンジンで違う。VOICEVOX は辞書と AquesTalk 風記法、AivisSpeech は辞書だけ（モーラの pitch と長さは無視される）、Google は SSML の yomigana でアクセントまで書ける（[[web-means-voice-voicevox-aivisspeech-user-dictionary]]、[[web-means-voice-google-azure-openai-elevenlabs-tts]]）
+- OpenAI の `gpt-4o-mini-tts` は 2027-01-06 に終了する（[[exp-democracy-river-video]] の英語版が使ったもの）
+- 単独で流れる研究の動画は「ナレーションあり・音楽なし」が規範（IOP は CC の音楽も禁止）。講演に埋める動画にはサウンドトラックを付けない（[[web-nonscreen-cell-iop-nejm-video-abstract-guides]]、[[web-embed-ted-anderson-yc-demo-day]]）
+- 比べて選ぶ前に、ラウドネスを揃える。評価役（モデル）は 6dB 大きい音を良いと判定し、理由の文にはそれを書かない（[[web-means-critic-omni-judge-audiojudge]]）
+- 話す速さの研究の数値は [[web-check-ja-speech-rate-mora]]

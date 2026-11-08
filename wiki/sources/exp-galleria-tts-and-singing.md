@@ -97,3 +97,12 @@ galleria には楽曲生成の実行記録が無い。2026-09-04 の調査で、
 
 - Irodori を完成動画のナレーションに使った記録はまだ無い。AivisSpeech と耳で比べた記録も無い。
 - VOICEVOX C API で作った 135 秒の音声が何に使われ、聴いてどうだったか。
+
+## Updates
+
+### 2026-11-09 第 3 回サーベイから
+
+- 2026-09-04 の整理「楽曲は実用的なローカルモデルが無い」は古い。ACE-Step 1.5（2026-02、重みは MIT、生成物の商用可）が既にあった（[[web-means-sound-ace-step-yue2-diffrhythm]]）
+- 同じ整理の「Suno は有料プランでも自らを author と称する」に当たる条文は、Suno の 2026-09-03 版の規約に見当たらない。Pro・Premier には「all of its right」を譲渡すると書く（[[web-means-sound-suno-udio-elevenlabs-music-terms]]）
+- 「license で在庫が二分される」には、名義と売上の軸が足りない。Fish は年商 50 万ドル、Live2D は売上 1,000 万円が境（[[web-means-voice-fish-qwen3-sarashina-kokoro]]、[[web-means-voice-heygen-live2d-avatar]]）
+- 聞き比べの機械の判定が耳の代わりにならないことは、AudioJudge（発音・話速の判定が偶然並み）と同じ向き（[[web-means-critic-omni-judge-audiojudge]]）

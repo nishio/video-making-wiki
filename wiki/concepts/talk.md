@@ -65,3 +65,10 @@ sources:
 - 学会は 30 秒の preview（広める）と video figure（理解させる）を別の動画にしている。技術の詳細を伝える talk は、広める promo と分けて作るのが作法（[[web-promo2-uist-chi-video-guides]]、[[work-promotion-video]]）
 - 字幕の数字（日本語 1 秒 4 字・1 行 13 字など）は [[design-fundamentals]]
 
+### 2026-11-09 第 3 回サーベイから
+
+- ナレーションの尺は 6〜7 モーラ／秒で見積もれる（JLPT の聴解で N1 は 7.07、日常会話の平均は約 6.6。[[web-check-ja-speech-rate-mora]]）
+- 日本語字幕の速さの研究: 1 秒 6 字までは視線の負荷が変わらず、8 字で増えた（豊倉・山田 2017、視線は 5 人。[[web-check-ja-toyokura-yamada-2017-subtitle-4-chars]]）
+- 描く過程を見せるホワイトボード・アニメは、同じ音声のスライドより得点が高かった（Türkay 2022、299 人、止められない条件。[[web-nonscreen-rsa-animate-turkay-2022-whiteboard]]）。video abstract の研究では、理解を上げたのは主に台本の平易さだった（[[web-nonscreen-zong-bonnevie-bredbenner-video-abstract-studies]]）
+- 批評役のモデルには映像と音を両方見せる。文字起こしだけだと人との相関が 0.84 → 0.23 に落ちた。一番効くのはナレーションの事実の誤りの指摘（[[web-means-critic-edupanel-paper2video]]）
+- 台本を AI が書くこと、コードで描くこと、字幕は、YouTube では開示不要と例示されている。AI の声は配信先で扱いが割れる（[[web-rights-youtube-genai-disclosure]]、[[web-rights-tiktok-meta-aigc-labels]]）

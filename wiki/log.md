@@ -55,3 +55,18 @@
 
 - 西尾: 「目的: 作るための手段を調査サーベイし、今後の表現手段を増やすこと」。CLAUDE.md のテーマと index の冒頭、llm-wiki の wikis.yaml の purpose に入れ、起点の Updates に記録
 - GitHub の正本の「作成待ち」を消した（西尾が作成済み）
+
+## [2026-11-09 07:48] ingest | origin に西尾の言葉「最終的に「動画の作り方の解説動画」を作るか」を記録（成果物の候補。未決定）
+
+## [2026-11-09 08:00] ingest | 第 3 回サーベイ: web- 83 ページ（means 48: capture 8・diagram 8・3d 7・voice 9・sound/font 8・critic 8、check 18: flash 3・subs 4・ja 2・loudness 2・color 3・spec 4、embed 5・nonscreen 4、rights 8）
+
+- 西尾の目的「作るための手段を調査サーベイし、今後の表現手段を増やすこと」と指示「明日からすぐ具体的に着手が可能な水準で」に沿う。CyEC2 では何も入れず動かさず、手順はすべて未検証（galleria で確かめる）
+- 10 の担当（general-purpose の subagent）で並行に読み、まとめ役が index・concept・Updates を書いた
+
+## [2026-11-09 08:05] filing-back | concepts/expression-means、concepts/checks-and-finishing、analyses/ready-to-start-2026-11-10、analyses/survey-2026-11-round3-summary
+
+- ready-to-start: 明日から着手できること 11 項目（閃光の検査・フォントの同梱・流しっぱなしの embed・作品の promo の収録・仕上げの検査・字幕・読み辞書・批評役・ACE-Step・GSAP/three.js・確認表と C2PA）、各項目に解説動画の材料、最後に「動画の作り方の解説動画」の型・構成案・西尾が決めること（案であって決定ではない）
+- Updates: concepts（embed・promo・talk・work-promotion-video・design-fundamentals・video-tools-comparison・narration-bgm-sound・after-opus55）、exp（sutra-hype-editions・html-capture-pipeline・galleria-tts-and-singing・polis-magi-op・forest-misc-video-notes・democracy-river-video）、web（promo2-vhs-shot-scraper・after-effects-lottie-rive）
+- 経験の古い事実: ローカルの楽曲モデル（ACE-Step 1.5 が既にあった）、Suno の規約の版、loudnorm が 1 パス（dynamic）、gpt-4o-mini-tts の終了、包括契約の範囲の書き方
+
+## [2026-11-09 08:10] lint | 第 3 回の後の lint。217 ページ、重複 0・孤立 0・壊れたリンク 0・未登録 0・フロントマター不備 0

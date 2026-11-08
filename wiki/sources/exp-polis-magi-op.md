@@ -99,3 +99,8 @@ ffmpeg -y -i ../out/video_noaudio.mp4 -i ../out/audio.wav -c:v copy -c:a aac -b:
 - 参照の平均 1.07 秒は現代ハリウッド映画の平均ショット長（4 秒未満、Cutting ら）よりはるかに短い。v1 の 4.5 秒は映画の平均程度だった（[[web-layout-smith-2012-cutting-2011-film-attention]]）
 - 1 拍 1 カット（約 0.47 秒）は字幕の最短表示（0.5 秒、Netflix）を下回る（[[web-type-netflix-timed-text-style-guide]]）
 
+### 2026-11-09 第 3 回サーベイから
+
+- 借りた様式の書体マティス-EB は、正規に入れる手段の mojimo-EVA（999 円/年）が個人契約で、本人のチャンネルに限られる。会社の発信物には使えない。Web フォントとしての使用は許諾外（[[web-means-font-morisawa-fonts-bizplus-mojimo]]）。OFL の 900 の明朝で置き換えられる（[[web-means-font-sil-ofl-noto-zen-mincho]]）
+- 包括契約の範囲は、公式には「作詞・作曲」で、このページの「作曲の権利だけ」とは書き方が違う。編曲・替え歌・広告目的の利用は外（[[web-rights-jasrac-nextone-ugc-music]]）
+- 様式（作風）はアイデアで、保護されない。ただし特定の作品の創作的表現が直接感じ取れれば、侵害になりうる（[[web-rights-bunkacho-ai-copyright-style]]）

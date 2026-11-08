@@ -70,3 +70,9 @@ sources:
 - Lottie は音声・動画・画像連番に非対応で、AE の効果の多くも落ちる。どの程度の作り込みまで Lottie で持ち出せるかは、実際に書き出して確かめていない。
 - Rive のエディタの利用規約・価格（ランタイムは MIT だが、エディタは商用サービス）は読んでいない。
 - After Effects の CLI レンダリング（aerender）や ExtendScript をエージェントから回す実務の記録は読んでいない。
+
+## Updates
+
+### 2026-11-09 第 3 回サーベイから
+
+- 2026-11-09 時点の版、dotlottie-web の setFrame、Rive の scrub と状態機械の制約（状態機械は seek できない）、Rive エディタの料金（無料はスプラッシュ画面付き、Cadet は $9/seat/月）は [[web-means-3d-lottie-rive-seek]]

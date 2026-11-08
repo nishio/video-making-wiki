@@ -67,3 +67,13 @@ sources:
 - 研究・本の promo（ソフトウェアのように画面が無い作品）では「実物」とは何か。本なら紙面、研究なら図と実験の映像か
 - コードで描いた画面と生成のカットを混ぜる作り方の実務の一次資料は見つからなかった（ベンダーの宣伝記事だけ）
 - 実画面を最初と最後のフレームに固定して間を生成させる使い方は、間でモデルが画面を発明する。作品紹介に使えるかは試していない
+
+## Updates
+
+### 2026-11-09 第 3 回サーベイから
+
+- 暫定の答えの「実物の収録」の具体的な手段が揃った。Web は Playwright の screencast（カーソル・クリック点・章見出しが組み込みに。2026）、それ以外は OBS を WebSocket で操作する。寄る位置は台本の側から渡す（[[web-means-capture-playwright-screencast]]、[[web-means-capture-obs-studio]]、[[expression-means]]）。手順は [[ready-to-start-2026-11-10]] の 4
+- 収録アプリの「読み込みを詰める」編集は待ちを隠す向きで、「時間と因果を偽らない」と紙一重（[[web-means-capture-cap]]）
+- 画面の無い作品（論文）の promo: video abstract は閲覧には少し効くが、引用への効果は割れていて、どれも観察研究（[[web-nonscreen-spicer-2014-video-abstracts]]、[[web-nonscreen-zong-bonnevie-bredbenner-video-abstract-studies]]）。研究の「実物」は、学術誌の答えでは模式図＋研究室・手技（Open Question への一つの答え）
+- 「使ったら開示する」の中身: 生成カットの C2PA が残ると、YouTube は外せないラベルを付ける。宣伝の動画に既存曲を使うと、広告目的複製に当たりうる（[[web-rights-c2pa-c2patool-content-credentials]]、[[web-rights-jasrac-nextone-ugc-music]]）
+- 会社の発信物には使えない条件のもの: ElevenLabs の個人プラン、YuE2 の個人の許可、mojimo、Cap の無料（[[web-means-sound-suno-udio-elevenlabs-music-terms]]、[[web-means-font-morisawa-fonts-bizplus-mojimo]]、[[web-means-capture-cap]]）

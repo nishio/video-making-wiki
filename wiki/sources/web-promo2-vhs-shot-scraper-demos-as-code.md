@@ -62,3 +62,10 @@ sources:
 - VHS の GIF は README の上で自動再生・ループされるが、音はない。音や声が要る promo にそのまま使えるかは別の問題
 - 実物を撮る方式で、待ち時間（LLM の応答など）をどう扱うか。`Hide` で隠すと実際の速さを誤解させうる。隠したことを画面に出す慣行は、この資料には書かれていない
 - GitHub の README に動画を直接埋めたときの上限・挙動は、公式ドキュメントで確かめていない
+
+## Updates
+
+### 2026-11-09 第 3 回サーベイから
+
+- VHS の最新は v0.12.1（2026-09-24）。v0.12.0 で Windows のコマンドコンソールが止まる問題が直った。Windows は `winget install charmbracelet.vhs` で入り、`ttyd` と `ffmpeg` が PATH に要る（means-capture 担当の確認）
+- shot-scraper 1.10（2026-06-30）で `shot-scraper video storyboard.yml` が入った。YAML の台本で click・type・scroll・pause・wait_for を並べ、`cursor: true` でカーソルの点とクリックの輪を出す。1.12（2026-09-13）で WebP に対応（[[web-means-capture-playwright-screencast]]）

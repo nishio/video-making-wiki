@@ -91,3 +91,14 @@ sources:
 - Anthropic の Claude Motion の用途の例（全社集会の 30 秒の解説、資料のグラフに動き）は embed に近い（[[web-opus-anthropic-claude-motion]]）。日本語の「動く図解」の制作記（KAKERU デザイン、2026-09-24）も提案書・研修への埋め込みを用途に挙げる（opus の担当の報告。ページにはしていない）
 - 流しっぱなしでは見る時間を動画が決める。字幕・文字の表示時間の規則（日本語 1 秒 4 字、最短 0.5 秒・最長 7 秒）と、「データを描く飾りは損が無い」（見る時間を制限しない条件）の違いに注意（[[design-fundamentals]]）
 
+### 2026-11-09 第 3 回サーベイから
+
+- **流しっぱなしの外の実例が見つかった**: 学会の Fast Forward（10〜30 秒、止まらない）。話し手が上に乗る版は録音したナレーションを禁止し（VIS 2015）、単独で流れる版はナレーションを必須にしている（VIS 2024）（[[web-embed-siggraph-ieeevis-chi-fast-forward]]）
+- **動画の声と話し手の分担**への最初の答え: 流す前に、何が映るかを一言で言う（Ladner、[[web-embed-ladner-sigaccess-chi-video-in-talks]]）。字幕や手話通訳を頼る人は一度に一つしか見られないので、動画の間に話すと、どちらかを捨てさせることになる
+- 講演の中に埋める動画に、サウンドトラックや宣伝臭いものは使うな（Anderson、要約のみ。[[web-embed-ted-anderson-yc-demo-day]]）。ただし Apple の基調講演は CM を流していた（[[web-embed-evangelist-2006-apple-keynote]]）
+- 展示の映像で実際に見られるのは、上映時間の半分未満（上映 2 分で 53 秒）。ナレーション無しのループが一番人を止めた。どこから見ても分かる作りが要る（[[web-embed-serrell-smithsonian-museum-video]]）
+- 一番近い外の型は Cell の Figure360（図 1 枚・2 分・「図にある要素だけ」・「2 秒以上画面が変わらない間を作らない」）（[[web-nonscreen-cell-iop-nejm-video-abstract-guides]]）
+- 3 つの発表ソフトに共通して通る形は H.264＋AAC の .mp4・1080p。ループを公式に書いているのは Keynote だけ（[[checks-and-finishing]]）
+- 一本作る手順は [[ready-to-start-2026-11-10]] の 3。段階表示の図の道具（Mermaid の step、D2 の steps、excalidraw-animate）は [[expression-means]]
+- 流しっぱなしでは読み違いを話し手がその場で補えないので、読み辞書の版管理が効く（[[web-means-voice-voicevox-aivisspeech-user-dictionary]]）
+- THINKLET の動画（ずんだもんのナレーション入り）は、VIS 2015 の規則なら、話し手が上に乗るときは不可。話し手が黙っていたなら矛盾しない（未確認のまま）

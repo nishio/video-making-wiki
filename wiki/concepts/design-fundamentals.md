@@ -86,3 +86,15 @@ sources:
 - 字幕の速さの研究に日本語が無い。Netflix の 1 秒 4 字は規則で、測った値ではない
 - 「跳ねを避ける」（IBM）と、Gyazo の叩き込みや Polis v4 の「ばね」が逆向き。IBM の様式の選択か、promo では跳ねが効くのか
 - 流しっぱなしの embed では見る時間が動画に決められる。Bateman の「データを描く飾りは損が無い」は見る時間を制限しない条件なので、そのまま移せない
+
+## Updates
+
+### 2026-11-09 第 3 回サーベイから
+
+- 閃光を実フレームで測る道具（IRIS と自前の画素ごとの近似）と、IRIS が画面全体の平均で判定する限界（ソースを読んだ解釈）。全画面の動画では、WCAG の面積の基準は ITU より約 9 倍厳しい（[[web-check-flash-ea-iris]]、[[web-check-flash-peat-harding-fpa]]、[[checks-and-finishing]]）
+- **日本語の字幕の速さの研究が見つかった**: 豊倉・山田 2017 は「1 秒 6 字までは視線の負荷が変わらず、8 字で増えた」（視線 5 人、英語上級者、理解度は測らず）。上の「日本語の研究は見つからなかった」を直す（[[web-check-ja-toyokura-yamada-2017-subtitle-4-chars]]）
+- 日本語の改行は BudouX で文節に分ける（[[web-check-subs-budoux]]）
+- コントラストは、canvas の文字なら描画コードの指定色で WCAG の式から計算する（[[web-check-color-wcag-contrast-on-frames]]）。色覚の模擬は、2 色覚には Brettel・Viénot の方が当事者の評価が良い（[[web-check-color-cvd-simulation-daltonlens-machado-chrome]]）
+- 批評役のモデルが拾えないもの（1 コマの閃光、0.5 秒単位の間、同期のずれ）は、機械の検査と人の目で確かめる（[[web-means-critic-omni-judge-audiojudge]]）
+- 極太の明朝は OFL の 900（Noto Serif CJK JP Black、Zen Old Mincho Black）で使える（[[web-means-font-sil-ofl-noto-zen-mincho]]）。書体のデザインは著作物になりにくい（ゴナ判決）が、フォントのファイルはライセンスに従う（[[web-rights-bunkacho-ai-copyright-style]]）
+- Figure360 の「2 秒以上画面が変わらない間を作らない」（[[web-nonscreen-cell-iop-nejm-video-abstract-guides]]）は、talk の「完全静止を既定」（[[exp-qualia-video]]）と逆向き。単独で流れる動画と、話し手が隣にいる動画の違いとして両方残す

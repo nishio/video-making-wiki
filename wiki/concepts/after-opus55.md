@@ -61,3 +61,11 @@ sources:
 - 「コマだけから要旨を言い直させる」批評が、Gyazo のような「中身が伝わらない」問題を事前に拾えるか
 - 流しっぱなしの embed を、この方式で作った例が外に無い。西尾が最初の例を作ることになるか
 - talk の題材の正しさを第三者が確かめた記録は無い。流行の解説動画の正確さは分からない
+
+## Updates
+
+### 2026-11-09 第 3 回サーベイから
+
+- 「モデルは聞けない・通しで見られない」は、Claude については 2026-11 の docs でもそのまま正しい（動画の入力が無く、API に音声の入力も無い）。Gemini と Qwen-Omni の API なら、映像と音を通しで見せられる（[[web-means-critic-gemini-video-understanding]]、[[web-means-critic-openai-claude-vision-docs]]）
+- ただし、点数を付けさせる批評は人と合わない（点の完全一致 26〜29%）。同期・停止・動きの評価は、研究上まだ届いていない。hculap の「全項目 8 点以上まで回す」ループには裏付けが無い（[[web-means-critic-videoscore]]、[[web-means-critic-video-bench-spotlight]]）
+- Open Questions の「コマだけから要旨を言い直させる批評が Gyazo のような問題を拾えるか」には、Paper2Video の「モデルの小テストと人の評価が逆になった」を足す（[[web-means-critic-edupanel-paper2video]]）。試す手順は [[ready-to-start-2026-11-10]] の 8
