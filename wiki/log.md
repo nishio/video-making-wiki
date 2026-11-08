@@ -36,3 +36,17 @@
 - 西尾の chat の補足（YouTube 5 本）を origin の Updates に原文で。残テは 2026-10-01 に公開済みで、exp-sutra-songs-on-music の「未公開」は古かった。Gyazo 47 秒版は本人評価「Jevの凄さのアピール重視で技術の詳細を伝えるには適切ではない」
 - 新規: exp-timeline-2026（Opus 5.5 公開 9/22 前後の時系列）、web-movez-opus-motion-design-course・web-taelin-bend-nge-feedback（tweet-memo の要約から。元投稿は未読）
 
+
+## [2026-11-09 04:30] ingest | 第 2 回サーベイ（web- 53 ページ）と横断の concept 3 ページ
+
+- 西尾の指示「特にOpus5.5が出たあとのもの、bytedanceなどで動画を丸ごと生成する系のもの、普遍的なデザイン知識、の3領域」で、8 つの担当に分けて並行で読んだ。途中で B の問いが「作品のプロモーション的な動画を作る上での最良の方法」に直され、丸ごと生成の 2 担当の範囲を絞り、作品紹介の作法の担当を足した
+- A（Opus 5.5 以後）: web-opus-* 8、web-opus2-* 7。B（作品の promo）: web-promo2-* 8、web-genvid-* 3、web-genvid2-* 5。C（デザイン）: web-motion-* 7、web-type-* 7、web-layout-* 8
+- 新規 concepts: after-opus55、work-promotion-video、design-fundamentals。Updates: promo、talk、embed、video-tools-comparison、narration-bgm-sound、three-video-types
+- 経験ページへの Updates: exp-sutra-hype-editions と exp-polis-magi-op（閃光の基準。R3 は要確認）、exp-galleria-local-video-generation（価格・VRAM の二次情報が古い）、exp-html-capture-pipeline（Shorts 3 分、X の 40fps）
+- 訂正: web-movez-opus-motion-design-course（Thariq の言葉の範囲、brief contagion の出どころ、Substack 版で本文が読める）、web-opus2-awesome-claude-5-5-videos
+
+## [2026-11-09 04:35] filing-back | 第 2 回サーベイのまとめ
+
+- analyses/survey-2026-11-round2-summary.md: 3 領域で分かったこと、三つの型（embed は流しっぱなし）への含意、食い違い 11 件、次にすること（閃光の検査が最優先）、読めなかったもの
+
+## [2026-11-09 04:40] lint | 機械的 lint のみ: 130 ページ、重複 0・孤立 0・壊れたリンク 0・index 未登録 0・フロントマター不備 0。意味的 lint は未実施

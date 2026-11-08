@@ -55,3 +55,13 @@ sources:
 - Mac の Hiragino 依存（[[exp-html-capture-pipeline]]）は、HyperFrames の「Docker でフォントを固定」で解決できるか。CyEC2（Linux）で同じ絵が出るか試していない
 - Remotion のライセンスが西尾の発信物（個人か会社か）にどう当たるかは、条文と所属で決まる。判断していない
 - embed を Motion Canvas の presentation mode で作る（スライドとして送る）方式と、mp4 をスライドに貼る方式を比べていない（[[embed]]）
+
+## Updates
+
+### 2026-11-09 第 2 回サーベイから
+
+- 道具の側の Opus 5.5 以後の変化: HyperFrames は skill を 21 から 7 に減らし、Remotion は「プレビューを先に開く」「静止画で確かめる」「人が後で直せるタイムライン」を skill に足した。新しい OSS の OpenFilm は `frame(t)` 一つで描き、2 通りの順で描いて一致を確かめる。Manim CE・Motion Canvas には LLM 向けの動きが無い（[[web-opus2-hyperframes-after-2026-09-22]]、[[web-opus2-remotion-openfilm-manim-after-2026-09-22]]）
+- 流行の作品で名前が出た道具は、素の JS/Canvas 55、Remotion 10、HyperFrames 8、Manim 2（[[web-opus2-awesome-claude-5-5-videos]] から担当が数えた）。西尾の方式は多数派の側
+- 実物を台本で動かして撮る道具（Charm の VHS、shot-scraper）は、作品の promo に効く別の系統（[[web-promo2-vhs-shot-scraper-demos-as-code]]、[[work-promotion-video]]）
+- 丸ごと生成のモデルとの組み合わせ方は [[work-promotion-video]]
+

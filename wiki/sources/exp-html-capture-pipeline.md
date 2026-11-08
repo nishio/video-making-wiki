@@ -109,3 +109,12 @@ ffmpeg -i ../out/video_noaudio.mp4 -i ../out/audio.wav -c:v copy -c:a aac -b:a 2
 - この型は Mac の Chrome と Hiragino フォントに依存している。galleria や CyEC2（Linux）で同じ絵が出るかは試していない。
 - 撮るのは 1 コマずつ PNG を経由するので遅い。粒子系で 1 分に約 10 分かかった。WebCodecs や canvas の録画など速い経路は試していない。
 - 音の合成は毎回 Claude が関数を書き直している（showreel → 60s → gyazo で別ファイル）。共通の部品にまとめてはいない。
+
+## Updates
+
+### 2026-11-09 サーベイ: 古くなった事実
+
+- 「縦長で 60 秒以内ならショート扱い」は、2024-10-15 以降 YouTube Shorts が「正方形か縦長で 3 分以内」になった（[[web-google-youtube-abcds]]）
+- X のヘルプはウェブからのアップロードを 40fps までとしている（[[web-x-video-ads-best-practices]]）。60fps の書き出しを X に出したときの実際の挙動は未確認
+- 外の Opus 5.5 期の作り手は 6〜8 プロセスで並列に撮っている。Remotion も純関数であることを並列化に使う（[[after-opus55]]、[[web-remotion]]）
+

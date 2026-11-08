@@ -86,3 +86,12 @@ fp8 の本体は 14.3GB x 2（high noise と low noise）だが、同時には�
 - A14B で複雑な行為・複数の被写体がどこまで出るか（単体被写体の smoke test まで）。
 - 720p・81 frames が 500 MiB の余裕で収まるか。
 - 解説動画（talk）で、生成した動きが役に立つ場面はあるのか。2026-08-12 の比較では完全静止に負けた。
+
+## Updates
+
+### 2026-11-09 第 2 回サーベイ: 二次情報の数字が古い
+
+- ホスト型の価格: Seedance 1.5 Pro は 2026-11-11 に退役、Veo 3.1 は Gemini API の Preview が 2026-10-22 に停止（後継は Gemini Omni 1.2 Flash）、Kling は公式（Runway 経由）で 720p 音声ありの Standard が $0.13/s（[[web-genvid-seedance]]、[[web-genvid-gemini-omni-veo]]、[[web-genvid-sora-kling-runway]]）
+- VRAM: 「LTX-2.3 は Windows local で 16GB が最低線」は二次情報で、公式の LTX-2.5 は最低 32GB。Wan2.2 A14B の公式の要件は 80GB だが、galleria では fp8 と lightx2v 4 steps で 15.8GB に収まった（実測）。公式で 16GB に収まるのは HunyuanVideo 1.5（14GB、オフロード込み）（[[web-genvid2-wan-ltx-hunyuanvideo-minimax-h3]]）
+- 「Wan は 2.2 が最後の公開世代」は 2026-11 時点でも公式と一致。2.2 系の派生（Animate-2-14B、Wan-Dancer-14B）が 2026-07〜08 に Apache-2.0 で出ている（同）
+

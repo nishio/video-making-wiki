@@ -55,3 +55,13 @@ sources:
 - SoME の AI 方針は AI が生成した台本・ナレーション・AI の声を名指しで不可にしている（[[web-3blue1brown-exposition-advice]]）。西尾の制作の多くはこれに当たる。発信先によって AI の関与の開示がどこまで求められるか
 - redundancy（字幕を足すな）の文献は割れている。日本語の TTS ナレーション＋字幕で測ったものは無い
 - Wistia・Guo の「長さ」はどちらも視聴の測度。talk の長さを理解で測った研究は今回読めていない（Mayer, Fiorella & Stull 2020 "Five ways…" は未読）
+
+## Updates
+
+### 2026-11-09 第 2 回サーベイから
+
+- Opus 5.5 期に、ナレーション付きの 1〜12 分の解説が多数作られた。**ナレーションを時計にする**（声の実際の長さで切れ目を決める）作り方が広がり、作り手は「モデルは聞けない・通しで見られない」と書いて、文字起こしでの読みの照合・機械検査・人が聞くことで補っている（[[after-opus55]]）
+- 外の解説（Zenn・HyperFrames）は解説でも連続したカメラの動きを推していて、[[exp-qualia-video]] の「完全静止を既定」と食い違う。IBM の「込み入るほど動きは小さく」は静止の側を支える（[[design-fundamentals]]）
+- 学会は 30 秒の preview（広める）と video figure（理解させる）を別の動画にしている。技術の詳細を伝える talk は、広める promo と分けて作るのが作法（[[web-promo2-uist-chi-video-guides]]、[[work-promotion-video]]）
+- 字幕の数字（日本語 1 秒 4 字・1 行 13 字など）は [[design-fundamentals]]
+

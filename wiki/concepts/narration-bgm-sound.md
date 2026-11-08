@@ -62,3 +62,11 @@ sources:
 - YouTube の参照レベルは、自分の動画の Stats for nerds で測れる（未実施）
 - [[exp-sutra-voicevox-singing]] の「声の帯域で伴奏比 +8〜11 dB」と Torcoli の 10 LU は桁が近いが、測り方も素材も違うので比べられない
 - 生成系の日本語 TTS（VOICEVOX・AivisSpeech・Irodori-TTS など）で voice principle を測った研究は無い
+
+## Updates
+
+### 2026-11-09 第 2 回サーベイから
+
+- 表現としての音（Chion の synchresis・added value、Murch の音と映像のずれ）は [[web-layout-chion-audio-vision-murch-sound]] と [[design-fundamentals]]。学習研究（Moreno & Mayer）とは測るものが違う
+- Opus 5.5 期の作り手は「モデルは聞けない」と書き、ラウドネス・同期の機械検査と TTS の文字起こしでの照合で補っている（[[after-opus55]]）
+
