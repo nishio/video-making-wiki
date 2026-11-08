@@ -1,0 +1,57 @@
+---
+type: concept
+summary: 西尾の見立て「プロモーションムービー風・解説プレゼン風・プレゼンに埋め込む特定概念の解説は別」を、制作経験から何が言えるかで埋めていくページ。経験の範囲では、型を分けているのは中身より「どこで流すか」に見える。embed の経験はまだない
+video_types: [promo, talk, embed]
+sources:
+  - origin-2026-11-09.md
+  - exp-*.md（2026-11-09 の抽出。個々の出典は本文）
+---
+
+# 動画の三つの型
+
+起点は西尾の見立て（[[origin-2026-11-09]]）:
+
+> プロモーションムービー風のやつと、解説プレゼン風のやつと、プレゼンの中に埋め込んで使う特定概念を解説するものとはそれぞれ別だよな感はある
+
+ここに書くのは、2026-11-09 に MacBook と galleria の制作経験（`sources/exp-*`）から抽出した範囲で言えること。文献の側はサーベイ（`sources/web-*`）で足す。型に依らない教訓は [[experience-lessons-2026-11]]。
+
+## 経験の内訳
+
+| 型 | 経験 | 主な出典 |
+|---|---|---|
+| promo（プロモーションムービー風） | 多い。showreel（15 秒・60 秒・縦長）、講演 → X 用 60 秒、Gyazo 配信再開 47 秒、Words as Public Goods 50 秒、Polis の OP 様式 55 秒、般若心経のアゲアゲ版・漢字版、切り抜きショートの下書き生成 | [[exp-nishio-showreel]]、[[exp-democracy-river-video]]、[[exp-gyazo-resumption-video]]、[[exp-words-as-public-goods-video]]、[[exp-polis-magi-op]]、[[exp-sutra-hype-editions]]、[[exp-shortmovie-draft-generator]] |
+| talk（解説プレゼン風） | クオリアさん解説 3 本（93 秒・109 秒・6 分 33 秒）、8 分の LT の準備、LLM Wiki 1 分解説シリーズ（構想と台本案で止まっている） | [[exp-qualia-video]]、[[exp-lt-20260909]]、[[exp-llm-wiki-explainer-series]] |
+| embed（プレゼンに埋め込む特定概念の解説） | 直接の経験は見つからなかった。近いのは般若心経の同期解説（45 秒・ナレーションなし・3 回反復。講演に埋め込んだ実績はない）、H3 の数秒の台詞 shot、4 秒の動きの A/B/C 比較 | [[exp-sutra-sync-subtitles]]、[[exp-qualia-h3-live2d-galleria]]、[[exp-qualia-video]] |
+
+## 経験から言えそうなこと
+
+### 型を決めたのは流す場所だった
+
+- Gyazo 配信再開の動画は、中身は作業の経緯の解説（talk 寄り）だったが、X に流すことと西尾の「ドーパミンアゲアゲ動画にして」で、47 秒・120BPM の叩き込み文字（promo の形）に作り直した（[[exp-gyazo-resumption-video]]）
+- 講演 34 分 → 60 秒でも、作りを決めた制約の多くは講演の中身ではなく配信面（無音自動再生、最初のコマがサムネイル、チャプターの長さ）から来た（[[exp-democracy-river-video]]。llm-wiki の考察「講演の短尺動画化では制約は配信面から来る」と同じ見方）
+- 1 本 1 概念の 1 分シリーズは、talk でも embed でもあり、X に出せば promo の制約も受ける。一本の動画が複数の型にまたがりうる（[[exp-llm-wiki-explainer-series]] の抽出者の見立て）
+
+ここから、三つの型を分ける軸は「視聴の場」——流れてくる場（SNS）／見に来た場（YouTube の解説・講演そのもの）／講演の中で話し手が流す場——ではないか、という仮説が立つ。検証はしていない。
+
+### 何が主導するかが違った
+
+| | promo | talk |
+|---|---|---|
+| 主導するもの | 音楽と拍。120BPM の小節頭で場面を切り替える（[[exp-html-capture-pipeline]]） | ナレーション。耳で分かる量まで台本を削る（[[exp-qualia-video]]） |
+| 動き | 変化が止まるとテンションが下がる。静止・出しっぱなしは下げた（[[exp-sutra-hype-editions]]、[[exp-polis-magi-op]] の「死んだ拍」） | 完全静止を既定にし、説明中の語・数値だけを強調する。画面全体の drift は「気持ち悪い」と評価された（[[exp-qualia-video]]） |
+| 音 | 無音で自動再生される前提で、字幕だけで通じるようにする（[[exp-words-as-public-goods-video]]、[[exp-democracy-river-video]]） | 音声が前提。画面に出す文と読み上げる文を分ける（[[exp-qualia-video]]、[[exp-galleria-tts-and-singing]]） |
+| 冒頭 | 最初の 1〜2 秒と最初のコマ（サムネイル）が勝負（[[exp-shortmovie-draft-generator]]、[[exp-democracy-river-video]]） | 冒頭 1 分で目的・失敗・見終わったらできることを示す（[[exp-qualia-video]]） |
+| 数値 | 尖った一点（モデル名と実測）だけ。正確さの条件は概要欄へ（[[exp-gyazo-resumption-video]]） | 耳で数値を覚えさせない。細かい数値は読み上げず wiki や概要欄へ（[[exp-qualia-video]]） |
+
+同じ「動き」の評価が promo と talk で逆向きになった点は、型を分ける根拠の一つになりそう。
+
+### embed について経験から推せること（未検証）
+
+- 般若心経の同期解説は「音・文字・意味を同じ瞬間に光らせる」ことを核に、ナレーションと導入を削った 45 秒だった（[[exp-sutra-sync-subtitles]]）。話し手が横にいる場で流すなら、ナレーションが無いことはむしろ合うかもしれない
+- talk の LT の工夫（円環、可変長の「散弾」、削る順）は、持ち時間の決まった生の発表から来ている（[[exp-lt-20260909]]）。embed はその発表の中の部品なので、尺は発表の側が決める
+
+## Open Questions
+
+- 三つの型を分ける軸は「視聴の場」で足りるか。目的（興味を引く／理解させる／一つの概念を渡す）とどう重なるか
+- embed の動画で、話し手のナレーションと動画の音（BGM・TTS）はどう共存させるべきか。ループさせるか、止めて話すか
+- アゲアゲ版は「見て上がる」つもりが、西尾には「このテンポで唱えられるか」という挑戦として届いた（[[exp-sutra-hype-editions]]）。見る人が参加できる問いになることは promo 一般に効くのか、唱える題材に固有か
