@@ -22,3 +22,9 @@
 - analyses/survey-2026-11-summary.md: 何が分かったか 10 項目、三つの型の違いの暫定の答え（視聴の場・誰が時間を握るか・音が主か・測るもの）、経験と文献の食い違い 10 件、次に調べること
 
 ## [2026-11-09 02:20] lint | 機械的 lint のみ: 69 ページ、孤立 0・壊れたリンク 0・index 未登録 0（サーベイのまとめの孤立を three-video-types から繋いで解消）。意味的 lint は未実施
+
+## [2026-11-09 02:35] ingest | 取りこぼしの経験 1 ページ: THINKLET の読書支援のデモ動画
+
+- 西尾の指摘「Thinkletの読書支援ツールの解説の動画を作った話は？」で最初の抽出の取りこぼしが分かり、Mac の Claude が書いた sources/exp-thinklet-reading-demo-video.md をそのまま置いた（~/handoffs-from-mac/2026-11-09-video-making-wiki/ から）
+- concepts/three-video-types.md の「経験の内訳」の embed の行に追記（LT に組み込む候補、実際に流したかは未確認）
+- concepts/embed.md に Updates: ナレーション入りの動画を発表で流すときの衝突、待ち時間を説明に変えた形、「ライブのデモを録画で置き換える」用途

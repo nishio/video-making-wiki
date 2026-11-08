@@ -21,7 +21,7 @@ sources:
 |---|---|---|
 | promo（プロモーションムービー風） | 多い。showreel（15 秒・60 秒・縦長）、講演 → X 用 60 秒、Gyazo 配信再開 47 秒、Words as Public Goods 50 秒、Polis の OP 様式 55 秒、般若心経のアゲアゲ版・漢字版、切り抜きショートの下書き生成 | [[exp-nishio-showreel]]、[[exp-democracy-river-video]]、[[exp-gyazo-resumption-video]]、[[exp-words-as-public-goods-video]]、[[exp-polis-magi-op]]、[[exp-sutra-hype-editions]]、[[exp-shortmovie-draft-generator]] |
 | talk（解説プレゼン風） | クオリアさん解説 3 本（93 秒・109 秒・6 分 33 秒）、8 分の LT の準備、LLM Wiki 1 分解説シリーズ（構想と台本案で止まっている） | [[exp-qualia-video]]、[[exp-lt-20260909]]、[[exp-llm-wiki-explainer-series]] |
-| embed（プレゼンに埋め込む特定概念の解説） | 直接の経験は見つからなかった。近いのは般若心経の同期解説（45 秒・ナレーションなし・3 回反復。講演に埋め込んだ実績はない）、H3 の数秒の台詞 shot、4 秒の動きの A/B/C 比較 | [[exp-sutra-sync-subtitles]]、[[exp-qualia-h3-live2d-galleria]]、[[exp-qualia-video]] |
+| embed（プレゼンに埋め込む特定概念の解説） | 直接の経験は見つからなかった。近いのは般若心経の同期解説（45 秒・ナレーションなし・3 回反復。講演に埋め込んだ実績はない）、H3 の数秒の台詞 shot、4 秒の動きの A/B/C 比較。THINKLET の読書支援のデモ動画（52 秒、西尾が Premiere Pro で編集。LT に組み込む候補。実際に流したかは未確認）[[exp-thinklet-reading-demo-video]] | [[exp-sutra-sync-subtitles]]、[[exp-qualia-h3-live2d-galleria]]、[[exp-qualia-video]]、[[exp-thinklet-reading-demo-video]] |
 
 ## 経験から言えそうなこと
 
