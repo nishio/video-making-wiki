@@ -55,3 +55,32 @@ sources:
 - 三つの型を分ける軸は「視聴の場」で足りるか。目的（興味を引く／理解させる／一つの概念を渡す）とどう重なるか
 - embed の動画で、話し手のナレーションと動画の音（BGM・TTS）はどう共存させるべきか。ループさせるか、止めて話すか
 - アゲアゲ版は「見て上がる」つもりが、西尾には「このテンポで唱えられるか」という挑戦として届いた（[[exp-sutra-hype-editions]]）。見る人が参加できる問いになることは promo 一般に効くのか、唱える題材に固有か
+
+## Updates
+
+### 2026-11-09 ネット上の知見のサーベイ（`sources/web-*` 37 ページ）から
+
+型ごとの詳細は [[promo]]・[[talk]]・[[embed]]。道具は [[video-tools-comparison]]、音は [[narration-bgm-sound]]。サーベイ全体のまとめは [[survey-2026-11-summary]]。
+
+#### 軸ごとの違い（文献と経験から。暫定）
+
+| 軸 | promo | talk | embed |
+|---|---|---|---|
+| 視聴の場 | フィードで流れてくる。スクロールで離脱 | 見に来る（YouTube の解説）。視聴者が止められる | 会場で話し手が流す。聴衆は止められない（システムペース） |
+| 尺 | 広告は 6〜15 秒の推奨（[[web-x-video-ads-best-practices]]、[[web-meta-video-ads-best-practices]]）。Wistia は 1 分未満に置く（[[web-wistia-video-length-engagement]]） | Wistia は 1〜5 分。Guo の 6 分は視聴の観察で学習でない（[[web-guo-2014-video-production-engagement]]）。Common Craft は 3 分以下 425〜525 語 | 発表が決める。文献に数値は無い |
+| 音 | 面ごとに違う。X のタイムラインは無音への備え、YouTube・TikTok・Reels は音あり前提（[[web-digiday-2016-85-percent-sound-off]]） | 音声が前提（modality 原則はこの前提の上。[[web-mayer-multimedia-principles]]） | 話し手の声が主。スライドソフトの既定と Rosling 型からは、動画は無音か小さく（[[web-roslingifier-data-presentations]]、[[web-powerpoint-keynote-google-slides-video-playback]]） |
+| 冒頭・構成 | 最初の 3 秒（各社）。ブランドを早く | Why → How（Common Craft）、30 秒で動機（SoME）、誤概念を先に述べて否定（[[web-muller-2008-misconceptions]]） | 先に見方を言う → 始める時を告げて流す → 動いている最中に意味を語る（Rosling 型） |
+| 動き | 文献に直接の記述は少ない。経験では「変化が止まると下がる」 | 飾りを除き、説明中の要素を指し示す（coherence・signaling、Sanderson） | 中身の変化を見せる動きだけ効く。抽象的・記号的な表現のアニメは効果が見られなかった（[[web-berney-betrancourt-2016-animation-meta-analysis]]） |
+| 測るもの（文献の） | 広告の想起・ブランド指標 | 視聴維持（業界）、保持・転移（研究） | 保持・転移（研究）。発表の場での測定は無い |
+
+#### 仮説「型を分ける軸は視聴の場」への文献の反応
+
+- 実務家も「目的と置き場所」で分けている（Wistia の目的別の長さ、Yum Yum の「置かれる場所が視聴者の意図を変える」。[[web-wistia-video-length-engagement]]、[[web-yum-yum-videos-explainer-script]]）
+- Sanderson の「Know your genre」は語り手の役（学生・専門家・先生・記者）で切り、「役が違えばテンポと様式が違う」と書く（[[web-3blue1brown-exposition-advice]]）。軸は違うが「型が違えば作りが違う」という結論は同じ
+- 研究の側では、「誰がペースを握るか」（システムペースか学習者ペースか）で設計原則の効き方が変わる（[[web-mayer-multimedia-principles]]）。embed（話し手が握る）と talk（視聴者が握れる）を分ける軸として、視聴の場より具体的に効きそう
+- 「動き」の評価が promo と talk で逆向きになった経験は、文献からは「promo の測度（注意・想起）と talk の測度（学習）が違う」ことで説明できる。promo の動きを学習の測度で評価した文献は無い
+
+#### Open Questions（追加）
+
+- 三つの型を分ける軸の候補は「視聴の場」「目的（測るもの）」「誰が時間を握るか」「音が主か」。どれが独立でどれが従属か
+- embed の文献の答えは「話し手が時間を握る」。西尾の言う「プレゼンの中に埋め込んで使う」動画が、話し手が操作する前提なのか、流しっぱなしの前提なのかを西尾に確かめる
