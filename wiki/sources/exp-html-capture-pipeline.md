@@ -124,3 +124,9 @@ ffmpeg -i ../out/video_noaudio.mp4 -i ../out/audio.wav -c:v copy -c:a aac -b:a 2
 - YouTube の推奨は、音声 48 kHz・ステレオ 384 kbps と faststart（[[web-check-spec-youtube-upload-shorts]]）
 - Hiragino 依存の代わりに、OFL のフォントを作品に同梱する手順は [[web-means-font-sil-ofl-noto-zen-mincho]]
 - SVG・DOM の道具を混ぜるなら `toDataURL` では撮れず、`page.screenshot` が要る（[[expression-means]]）
+
+### 2026-11-09 解説動画 3 本での使い方
+
+- 2026-11 の解説動画 3 本はこの骨格を写し、BGM の代わりにナレーションの wav の長さから時刻表を作り、引用の映像・画像は canvas に描かず ffmpeg の overlay で重ねた（[[talk-video-making-2026-11]]）
+- capture.mjs は `file://` で開いて `--allow-file-access-from-files` を付けている。上の「画像ファイルを描く場合は `file://` で開かない」とは、canvas に画像を描かなかったので当たっていない。このフラグで tainted canvas が避けられるかは確かめていない
+- 字幕なしのコマを撮る `NOSUB`（環境変数 → `window.NOSUB`）をサムネイル用に足した（プロセス動画とメイキング）

@@ -115,3 +115,14 @@
 ## [2026-11-09 21:41] filing-back | ai-editing に Premiere 27 への更新と契約の確認
 
 - Updates: 西尾の Mac の Premiere を 25.3.0 から 27.0.0 に更新（西尾が Creative Cloud で。2025 は消えた）。契約は Premiere 単体の年間・月払いで続いている見込み（2026-09-02 の更新の通知メール、解約のメールなし）。OTIO で Premiere に渡す道が Mac で試せるようになった（27 で読めるかは未検証）。OTIO の平易な説明
+
+## [2026-11-09 23:03] filing-back | talk の手順書、解説動画 3 本の比較、tsugigami のメイキングの exp ページ（Mac からの依頼、作業場の写しから）
+
+- 依頼: ~/handoffs-from-mac/2026-11-09-talk-materials/HANDOFF.md（西尾「このWikiってビデオを作るHowについてはどれくらい書いてある？」「今回の4本の動画の作業の話は入ってる？」「(b)」= 作業場のコードも渡す）
+- 材料: Mac の ~/video-making-explainer・~/video-making-process・~/tsugigami-promo/making のテキストの写しと gitlog（音・映像・画像・out/ は無し）。CyEC2 の外へは出していない
+- 新規 analyses/talk-video-making-2026-11.md: 台本 → 事実確認 → 声（選ぶ・読み・イントネーション）→ 時刻表 → 描画 → 引用の重ね → 検査 → レビューの受け取り → 公開。各手順にコマンドと、どの動画のどのファイルで確かめたか、何本で確かめたか。意図・文献を分けた
+- 新規 analyses/talk-three-videos-2026-11.md: 3 本の並び（書き出しの回数、時刻）、使い回せたもの、毎回直しが入った所（読み・引用の選び方と見せ方・表示の時刻・言い方・音量・開示）、3 本目で楽になったこと／ならなかったこと
+- 新規 sources/exp-tsugigami-making.md: exp-tsugigami-promo の Updates 4 行では、写した所と足した所（VIS、cues.py、素材の長さ）が書けないので独立させた
+- Updates: concepts/talk、concepts/promo、sources/exp-tsugigami-promo、sources/exp-explainer-video-2026-11、sources/exp-html-capture-pipeline
+
+## [2026-11-09 23:04] lint | 246 ページ、重複・孤立・壊れたリンク・未登録・フロントマター不備すべて 0

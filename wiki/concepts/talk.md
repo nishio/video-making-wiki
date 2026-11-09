@@ -72,3 +72,9 @@ sources:
 - 描く過程を見せるホワイトボード・アニメは、同じ音声のスライドより得点が高かった（Türkay 2022、299 人、止められない条件。[[web-nonscreen-rsa-animate-turkay-2022-whiteboard]]）。video abstract の研究では、理解を上げたのは主に台本の平易さだった（[[web-nonscreen-zong-bonnevie-bredbenner-video-abstract-studies]]）
 - 批評役のモデルには映像と音を両方見せる。文字起こしだけだと人との相関が 0.84 → 0.23 に落ちた。一番効くのはナレーションの事実の誤りの指摘（[[web-means-critic-edupanel-paper2video]]）
 - 台本を AI が書くこと、コードで描くこと、字幕は、YouTube では開示不要と例示されている。AI の声は配信先で扱いが割れる（[[web-rights-youtube-genai-disclosure]]、[[web-rights-tiktok-meta-aigc-labels]]）
+
+### 2026-11-09 解説動画 3 本の経験から
+
+- この型で 2026-11-09 に 3 本作って公開した経験のページ: [[exp-explainer-video-2026-11]]（本編「動画の作り方 2026年11月」とプロセス動画）、[[exp-tsugigami-making]]（tsugigami の広告動画のメイキング）
+- 3 本の作業場のファイルから、台本 → 事実確認 → 声 → 時刻表 → 描画 → 引用の重ね → 検査 → レビューの受け取り → 公開の順の手順を書いた: [[talk-video-making-2026-11]]。各手順に、何本で確かめたかを付けている
+- 3 本の比較（使い回せたもの、毎回直しが入った所）: [[talk-three-videos-2026-11]]。読み、引用の選び方と見せ方（修正前を見せる）、言い方には 3 本とも西尾の直しが入った
