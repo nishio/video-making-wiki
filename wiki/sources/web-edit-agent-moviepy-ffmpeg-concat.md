@@ -114,6 +114,7 @@ sources:
     [v0][a0][v1][a1]concat=n=2:v=1:a=1[v][a]" -map "[v]" -map "[a]" B.mp4
   for f in A.mp4 B.mp4; do ffprobe -v error -show_entries stream=codec_type,duration -of csv=p=0 $f; done
   ```
+  `bc` が WSL に無ければ秒の引き算は python で（推測）。`list.txt` は試すたびに消す
 - **動いたと言える確かめ方**: (1) A・B とも長さが 12.70＋18.30＝31.00 秒から 1 コマ（1/30 秒）以内。(2) 各ファイルの映像の長さと音声の長さの差が 1 コマ以内（ffprobe の `stream=duration`）。(3) 区間を 20 個に増やした版で、A と B の音と映像の長さの差が増えるかを表にする（video-editing-skill の「つなぐごとに数 ms ずれる」の確かめ）。(4) つなぎ目の ±1 秒をコンタクトシート（[[web-check-spec-ffmpeg-contact-sheet-select-tile-drawtext]]）で見て、前の区間のコマが混ざっていないか
 - **所要の見込み（推測）**: 1 時間。20 区間の比較まで入れて 2 時間
 
@@ -124,4 +125,3 @@ sources:
 - MoviePy v2 を LLM に書かせると v1 の書き方をどのくらい混ぜるか。ffmpeg を直接書かせる方が壊れにくいか
 - 経験の「3 秒延長」が何を直していたか（上の含意）
 
-## Updates

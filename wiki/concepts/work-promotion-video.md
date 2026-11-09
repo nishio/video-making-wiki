@@ -77,3 +77,12 @@ sources:
 - 画面の無い作品（論文）の promo: video abstract は閲覧には少し効くが、引用への効果は割れていて、どれも観察研究（[[web-nonscreen-spicer-2014-video-abstracts]]、[[web-nonscreen-zong-bonnevie-bredbenner-video-abstract-studies]]）。研究の「実物」は、学術誌の答えでは模式図＋研究室・手技（Open Question への一つの答え）
 - 「使ったら開示する」の中身: 生成カットの C2PA が残ると、YouTube は外せないラベルを付ける。宣伝の動画に既存曲を使うと、広告目的複製に当たりうる（[[web-rights-c2pa-c2patool-content-credentials]]、[[web-rights-jasrac-nextone-ugc-music]]）
 - 会社の発信物には使えない条件のもの: ElevenLabs の個人プラン、YuE2 の個人の許可、mojimo、Cap の無料（[[web-means-sound-suno-udio-elevenlabs-music-terms]]、[[web-means-font-morisawa-fonts-bizplus-mojimo]]、[[web-means-capture-cap]]）
+
+### 2026-11-09 動画編集を AI にさせる方法のサーベイから（[[ai-editing]]）
+
+- 西尾の言葉（2026-11-09）:「「動画を撮って人が編集」って、事例では確かに人が編集したけど編集作業自体をAIにさせてもいいよね」「動画編集をAIにさせる方法に関するサーベイが足りてないならCyEC2にやらせといて」
+- これを受けて、暫定の答えの 1 は「**実物の収録が正本。その編集は人がしても AI にさせてもよい**」と読む。正本なのは素材（実物）で、編集の担い手ではない。方式と道具は [[ai-editing]]
+- ただし AI の編集には二つの注意がある:
+  - 自動で詰める道具（無音・止まった画面で切る）は、処理の待ちを「dead space」として消す側に働く。暫定の答えの「時間と因果を偽らない」を守るのは、今は人の判断（[[web-edit-auto-auto-editor]]、[[web-edit-text-final-cut-pro-vrew]]）
+  - UGC の編集課題では、文字と図の出来が判断の 91% を決め、AI はそこで一番負けた（勝ちか引き分けは 6.8%、[[web-edit-research-timeline-bench-medit-bench]]）。暫定の答えの 2「文字・図・数値の強調はコードで描いて重ねる」と同じ向き
+- 実物の収録とコードで描いた重ねを、編集ソフトで直せる形で渡す道: OTIO で区間を渡し、描いた部分は透明の動画に焼いて上に置く（Remotion の公式の skill の方針、[[web-edit-agent-opentimelineio-edl-fcpxml]]）

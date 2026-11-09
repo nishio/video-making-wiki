@@ -81,3 +81,12 @@
 - そのまま可 1（Claude は動画を直接は出せない）、言い方を直す 14、削る 0。直した文の案付き。台本（Mac の ~/video-making-explainer）は直していない
 - 3 つの担当（配信先の規則・AI のモデルの docs・研究）が原典を開き、項目 15 はまとめ役が wiki の範囲で確かめた
 - wiki のずれを Updates に: promo（最初の 3 秒 → 3〜5 秒）、web-digiday（YouTube のホームは音なし）、web-promo2-apple（2.3.4 はプレビュー動画だけ、2.3.14）、web-opus-hculap・howseen（hold の例外）、after-opus55（聞けないは API の条件つき）、design-fundamentals（拍の同期の研究）、web-motion-wcag（版の日付、英国の基準）、web-check-ja-speech-rate-mora（石本の要旨と本文の食い違い）、web-muller（d の中身）、web-embed-ladner（"Sometimes it is good to"）
+
+## [2026-11-09 10:55] ingest | 動画編集を AI にさせる方法のサーベイ（web-edit-* 22 ページ）と concepts/ai-editing
+
+- 西尾の言葉「編集作業自体をAIにさせてもいいよね」「動画編集をAIにさせる方法に関するサーベイが足りてないならCyEC2にやらせといて」から。4 つの担当: text（Descript・Premiere・CapCut・Resolve・FCP/Vrew、5）、auto（auto-editor・PySceneDetect ほか・OpusClip・Vizard/Klap/Munch・切り抜きの OSS・AutoClip の観察、6）、agent（OTIO/EDL/FCPXML・MoviePy/ffmpeg・Resolve/Premiere の API・MCP サーバー・video-use などの実例・Gemini の場面選び、6）、research（文字起こしで編集する研究の系譜・LAVE/ExpressEdit・EditDuet ほか・HIVE/AVT・Timeline-Bench/MEDit-Bench、5）
+- 横断: concepts/ai-editing（骨組みは「時刻付きの文字起こしを正、LLM は区間を選ぶ」。ペース・筋・ショット選びは 2026 年秋のベンチマークでも人に及ばない。日本語の文字起こし編集が公式に動くのは Premiere・Resolve Studio・Vrew）
+- Updates: work-promotion-video（西尾の言葉、実物の収録が正本・編集は人でも AI でも）、expression-means、ready-to-start-2026-11-10（12〜14 の候補）、checks-and-finishing、video-tools-comparison、exp-shortmovie-draft-generator、exp-thinklet-reading-demo-video
+- CyEC2 では何も入れず動かしていない。手順はすべて未検証（galleria で確かめる）。Mac の compose.py はこの機械に無く読んでいない
+
+## [2026-11-09 10:57] lint | 241 ページ、重複・孤立・壊れたリンク・未登録・フロントマター不備すべて 0

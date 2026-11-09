@@ -173,3 +173,14 @@ sources:
 - GSAP の許諾に、動画への書き出しの明記が無い。条文の「Webflow と競合するツール」に当たらない、というのは担当の読みで、決めるのは西尾。
 - 声の複製と HeyGen の分身は、顔と声を外部に預けるか、どの名義で使うかが先に決まらないと始められない（[[ready-to-start-2026-11-10]] の「西尾が決めること」）。
 - 日本語の画面文字・日本語の音声で、批評役の精度を測った研究は見つからなかった。
+
+## Updates
+
+### 2026-11-09 動画編集を AI にさせる方法のサーベイから（[[ai-editing]]）
+
+- 「実物の収録」の分野に、**撮った素材の編集を AI にさせる手段**を足す（22 ページ、横断は [[ai-editing]]）。
+  - 自動カット: auto-editor 31.8.0（無音・動きで荒切りし、Premiere・Resolve の XML を出す。galleria WSL、0 円、[[web-edit-auto-auto-editor]]）
+  - テキストで編集: Premiere（日本語に対応）、Resolve Studio の IntelliScript（台本から荒つなぎ、$236）。Descript は日本語に使えない（[[web-edit-text-davinci-resolve-intelliscript-studio]]、[[web-edit-text-descript-underlord]]）
+  - 切り抜き: OpusClip など商用と OpenShorts などの OSS。どれも「文字起こし → LLM が区間を選ぶ」（[[web-edit-auto-opusclip]]、[[web-edit-auto-openshorts-ai-youtube-shorts-generator-supoclip-autoclip]]）
+  - LLM のエージェント: OTIO で編集ソフトに渡す、ffmpeg で切り貼り、Resolve Studio 21.1 の組み込み MCP、video-use などの skill（[[web-edit-agent-opentimelineio-edl-fcpxml]]、[[web-edit-agent-video-use-and-claude-code-editing-examples]]）
+- 増える表現: 講演・LT の録画を詰めた版、長い録画からの切り抜き、編集ソフトで直せる下書きのタイムライン。ペース・筋・ショット選びは研究で人に及ばない（[[web-edit-research-timeline-bench-medit-bench]]）

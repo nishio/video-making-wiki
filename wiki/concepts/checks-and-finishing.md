@@ -103,3 +103,10 @@ sources:
 - ffmpeg が RGB の PNG を yuv420p にするときの既定の行列は、文書に書かれていない。galleria で ffprobe の color_space を見れば分かる。
 - 日本語字幕の速さの研究は 1 本だけで、人数が少ない。
 - 批評役のモデルと機械の検査の役割分担（どちらに何を任せるか）は、両方を回してみるまで決まらない。
+
+## Updates
+
+### 2026-11-09 動画編集を AI にさせる方法のサーベイから（[[ai-editing]]）
+
+- AI に編集させた動画の検査（[[web-edit-research-timeline-bench-medit-bench]]）: Timeline-Bench は破綻の検査 6 種と、判定役に渡す 4 つの数値（1 分あたりのカット数、最長の静止、統合ラウドネス、無音の割合）を使う。エージェントは人の 0.72 倍しか切らず、静止を 1.5 倍長く持った。どれも ffmpeg で出せる（未検証）
+- エージェントの自己点検は当てにならない。テストに落ちた回の 95.5% で「成功」と報告していた（同）。video-use は切れ目の ±1.5 秒の画像、`ebur128`、批評役のサブエージェントで点検する（[[web-edit-agent-video-use-and-claude-code-editing-examples]]）が、最後は人が通しで見る

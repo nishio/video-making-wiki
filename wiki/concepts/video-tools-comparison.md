@@ -71,3 +71,9 @@ sources:
 - 西尾の方式（canvas の `toDataURL`）に載るかの要点: SVG・DOM の道具（Mermaid、D2、Excalidraw、GSAP、lottie-web の svg 描画）は `page.screenshot` が要る。時刻の止め方は、SMIL なら `setCurrentTime`、CSS なら `getAnimations`、GSAP なら paused timeline の seek（[[web-means-diagram-mermaid]]、[[web-means-3d-gsap-svg-seek]]）
 - WebGL は headless で GPU が切られやすい。`--use-gl=angle` で起動し、`UNMASKED_RENDERER_WEBGL` で確かめる（[[web-means-3d-threejs-headless-webgl]]）
 - Open Questions の「Mac の Hiragino 依存」への答えの候補: フォントのファイルを作品に同梱して `@font-face` で指す。Ubuntu の `fonts-noto-cjk` に Black は無い（[[web-means-font-fontconfig-noto-cjk-linux]]）
+
+### 2026-11-09 動画編集を AI にさせる方法のサーベイから（[[ai-editing]]）
+
+- 撮った素材の編集を AI にさせる道具は [[ai-editing]] に別の表で並べた。日本語の素材に使えるか（公式の記述）: Premiere ○、Resolve Studio ○（拡張言語パック）、Vrew ○、Descript ×（ラテン文字の言語だけ）、Final Cut Pro ×（米国英語だけ）、OpusClip は BETA
+- CapCut の規約（2026-04-15 版）は送った素材を non-confidential とし、日本は sponsored content の節が外れていない（[[web-edit-text-capcut-desktop-editpilot-terms]]）
+- Remotion は OTIO に書き出す skill を公式に出している（描いた部分は透明の動画に焼いて上に置く、[[web-edit-agent-opentimelineio-edl-fcpxml]]）

@@ -78,3 +78,10 @@ sources:
 - 「3 秒延長」は何を直したかったのか。YouTube 字幕の chunk の終わりが発話の終わりより早いのか、切り抜きの終わりに余韻が要るのか
 - 黒帯の縦動画と、話者に寄せて切り取る縦動画のどちらがショートで見られるか。repo には比較がない
 - 「冒頭 2 秒」「視聴時間」を軸にした規則は、promo の型には合うが、talk（解説プレゼン風）の切り抜きにもそのまま当てはまるか。make-money の YouTube の数字では、解説形式より「一緒に唱える」形式の方が残った（[[exp-forest-misc-video-notes]]）
+
+## Updates
+
+### 2026-11-09 動画編集を AI にさせる方法のサーベイから（[[ai-editing]]）
+
+- 2026-10 の切り抜きの道具（OpenShorts・Klap・video-use）も、同じ「時刻付きの文字起こし → LLM が区間を選ぶ。時刻は文字起こしを正にする」骨組みだった。冒頭と結末を別の欄にしたのは HIVE（EMNLP 2025 Industry）で効くと測られた所（[[web-edit-research-hive-avt-long-to-short]]）
+- 食い違い: 終わりの延長 3 秒は、OpenShorts の最大 0.45 秒、auto-editor の margin 0.2 秒より一桁大きい。この道具には、書き出し後の点検・端の fade・語の境界への吸着が無い（[[ai-editing]]）

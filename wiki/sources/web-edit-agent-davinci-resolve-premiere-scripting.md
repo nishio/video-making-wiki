@@ -145,4 +145,3 @@ Blackmagic の一次資料（21.1 の release notes・Reference Manual）は今�
 - Premiere の UXP から外のプロセスと話す正規の方法（UXP の networking で WebSocket のクライアントになる、が MCP の形）。Adobe が外部からの操作をどう位置づけているかの文書は見つからなかった
 - Resolve・Premiere の文字起こしの日本語の精度
 
-## Updates

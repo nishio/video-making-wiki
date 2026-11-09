@@ -494,3 +494,15 @@ sources:
   - 声: TTS
   - 出す先: YouTube
 - まだ決まっていないこと: 尺、TTS のエンジンと声、promo・embed の版を別に作るか、AI の関与の開示の書き方
+
+### 2026-11-09 動画編集を AI にさせる方法のサーベイから（[[ai-editing]]）
+
+- 西尾の「編集作業自体をAIにさせてもいいよね」を受けた候補（どれも未検証、galleria で確かめる。詳しくは [[ai-editing]] の「最小の始め方」）:
+  - **12 候補. auto-editor で講演の録画を荒切りし、Premiere の XML まで出す**（talk、galleria WSL、0 円、20〜60 分の見込み）。確かめ方: 試験素材で尺が約 11.8 秒、XML にクリップ 5 つ（[[web-edit-auto-auto-editor]]）
+  - **13 候補. LLM が書いた区間の JSON → OTIO → Resolve 無料版で開く**（promo・talk、0 円、1〜1.5 時間の見込み）。クリップ数と In/Out が JSON と合えば成功（[[web-edit-agent-opentimelineio-edl-fcpxml]]）
+  - **14 候補. Claude Code に録画を詰めさせる**（video-use は ElevenLabs のキーが要る。キーなしなら video-editing-skill と faster-whisper）。方針の承認を待つこと・尺が 1 コマ以内で合うことで確かめる（[[web-edit-agent-video-use-and-claude-code-editing-examples]]）
+- 既存の項目への効き方:
+  - 4（作品の promo）: 撮った画面の切り貼りを AI に任せる道ができた。ただし文字と図は AI が一番負ける所（[[web-edit-research-timeline-bench-medit-bench]]）なので、重ねはコードで描く方針のまま
+  - 5（仕上げの検査）: Timeline-Bench が判定役に渡す 4 つの数値（1 分あたりのカット数、最長の静止、統合ラウドネス、無音の割合）を足せる
+  - 8（批評役）: AI の判定役は並べる順で 35 ポイント振れた（MEDit-Bench）。比べるときは順を入れ替えて両方で聞く
+- 解説動画の材料: 「三つ目の作り方（実物を撮る。編集は人でも AI でもよい）」の節に、auto-editor の荒切りの前後、OTIO で Resolve に渡した下書きのタイムラインが使える。「AI に任せられること／人に残ること」の 2 列の表も

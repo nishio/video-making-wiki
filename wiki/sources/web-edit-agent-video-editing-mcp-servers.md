@@ -133,4 +133,3 @@ GitHub の検索（「davinci resolve mcp」「premiere mcp」「ffmpeg mcp」�
 - クラウドの 3 つ（ChatCut・Kapwing・Video Jungle）の規約で、アップロードした素材が AI の学習に使われるか（未読）
 - star の多さと実際の使われ方の関係（ffmpeg-skill は 2 か月で 4,800）。宣伝で伸びた可能性は否定できない
 
-## Updates
