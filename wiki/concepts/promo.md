@@ -77,3 +77,8 @@ sources:
 - 拍に合わせて光らせる演出は、書き出しのたびに閃光の検査を通す。BPM を上げた版こそ測る（[[web-check-flash-ea-iris]]）
 - 実物の収録（Playwright の screencast、OBS、自動ズーム）、ACE-Step の曲、Blender・three.js は [[expression-means]]
 - 開示: リアルな生成カットは、TikTok・Meta・YouTube のどれでも開示が要る。X は一般の開示義務が無いが、JASRAC・NexTone の UGC の一覧に無い（[[web-rights-tiktok-meta-aigc-labels]]、[[web-rights-jasrac-nextone-ugc-music]]）
+
+### 2026-11-09 台本のファクトチェックから（[[explainer-script-factcheck-2026-11]]）
+
+- 「経験と並べる」の「各社の『最初の 3 秒』と同じ向き」は不正確。原典では Google（ABCD）は 5 秒、TikTok は「3 秒で提案、6 秒以内にフック」、X はブランドを 4 秒以内。「最初の 3〜5 秒」が正しい（上の表の数値は原典と合っている）
+- 「YouTube は音あり前提」は Google の広告資料の言い方。YouTube 自身のヘルプでは、ホームと検索結果で音なし・字幕つきで再生される（https://support.google.com/youtube/answer/7640367）

@@ -85,3 +85,11 @@ sources:
 - 前庭障害の三要因は 2 人への聞き取りからの整理で、数値の閾値（何 % の画面の動きから、何度/秒から）は無い
 - Harding FPA・PEAT の判定手順は読んでいない。経験の動画（Polis の OP 様式、アゲアゲ版）を実際に測ったことはない
 - 2.3.2 Three Flashes（AAA、面積の例外なしに 1 秒 3 回まで）の Understanding は読んでいない
+
+## Updates
+
+### 2026-11-09 台本のファクトチェックから（[[explainer-script-factcheck-2026-11]]）
+
+- published の 2023-10-05 は WCAG 2.2 の初版の日付。現行は W3C Recommendation 2024-12-12、Understanding 2.3.1 は 2025-09-17 更新
+- 閃光の基準の元: Understanding 2.3.1 の原文は "based on existing specifications in use in the UK and by others for television broadcast"（英国の放送の基準）。このページの含意の節の「放送の基準（ITU-R BT.1702）が元」は言い方が違う
+- Understanding は "the video should be analyzed for risks at full screen" と書く

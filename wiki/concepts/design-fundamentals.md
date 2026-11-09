@@ -98,3 +98,8 @@ sources:
 - 批評役のモデルが拾えないもの（1 コマの閃光、0.5 秒単位の間、同期のずれ）は、機械の検査と人の目で確かめる（[[web-means-critic-omni-judge-audiojudge]]）
 - 極太の明朝は OFL の 900（Noto Serif CJK JP Black、Zen Old Mincho Black）で使える（[[web-means-font-sil-ofl-noto-zen-mincho]]）。書体のデザインは著作物になりにくい（ゴナ判決）が、フォントのファイルはライセンスに従う（[[web-rights-bunkacho-ai-copyright-style]]）
 - Figure360 の「2 秒以上画面が変わらない間を作らない」（[[web-nonscreen-cell-iop-nejm-video-abstract-guides]]）は、talk の「完全静止を既定」（[[exp-qualia-video]]）と逆向き。単独で流れる動画と、話し手が隣にいる動画の違いとして両方残す
+
+### 2026-11-09 台本のファクトチェックから（[[explainer-script-factcheck-2026-11]]）
+
+- 拍と映像の切り替えの同期の研究（要旨のみ読んだ）: Lin, Yeh & Shams 2022（Neuroscience Letters 779:136623）は、カットと拍が揃うと、気づかない程度のずれとの比較でも心地よさの評定が上がったと報告している。Lipscomb 1995（UCLA 博士論文の要旨、https://auditory.org/postings/1998/35.html）は、単純なアニメでは揃えたものが高く評価されたが、実際の映画の抜粋では揃えたものと少しずらしたものの評定に差が出なかったと書く。「数秒ごとに新しいこと」を支える研究は見つからなかった
+- 閃光の「画面の大きな部分」という言い換えは、WCAG の面積（10 度の視野の 25%、1024×768 で約 11%）より甘い。一般向けには「1 秒に 3 回まで、赤い点滅は特に避ける」と条件を落として厳しい側で言う方が安全

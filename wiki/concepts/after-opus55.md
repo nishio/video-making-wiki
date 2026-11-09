@@ -69,3 +69,8 @@ sources:
 - 「モデルは聞けない・通しで見られない」は、Claude については 2026-11 の docs でもそのまま正しい（動画の入力が無く、API に音声の入力も無い）。Gemini と Qwen-Omni の API なら、映像と音を通しで見せられる（[[web-means-critic-gemini-video-understanding]]、[[web-means-critic-openai-claude-vision-docs]]）
 - ただし、点数を付けさせる批評は人と合わない（点の完全一致 26〜29%）。同期・停止・動きの評価は、研究上まだ届いていない。hculap の「全項目 8 点以上まで回す」ループには裏付けが無い（[[web-means-critic-videoscore]]、[[web-means-critic-video-bench-spotlight]]）
 - Open Questions の「コマだけから要旨を言い直させる批評が Gyazo のような問題を拾えるか」には、Paper2Video の「モデルの小テストと人の評価が逆になった」を足す（[[web-means-critic-edupanel-paper2video]]）。試す手順は [[ready-to-start-2026-11-10]] の 8
+
+### 2026-11-09 台本のファクトチェックから（[[explainer-script-factcheck-2026-11]]）
+
+- house rules の「止めない」には、原典が例外を置いている（hculap は拍の上の意図した hold、howseen は最後の hold）
+- 「Claude は聞けない」は、**API の条件つき**で正しい（Opus 5.5 のページ "Input → output | Text and images → text"、Messages API に audio の入力が無い）。Claude のアプリには voice mode があり、公式も "Claude listens" と書く。一般向けには「作った音声ファイルを Claude に聞かせて確かめることはできない」と言うのが正確

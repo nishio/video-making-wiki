@@ -74,3 +74,9 @@ sources:
 
 - 7 軸の採点が人の評価とどれだけ合うかを、この skill は測っていない。8 点の閾値の根拠も書かれていない（Movez の記事からの引き写し）
 - 「2〜4 秒ごとに新しいこと」「フックは最初の 2 秒」は、embed（話し手のいる場で流しっぱなし、[[three-video-types]]）にはどう効くか。聴衆は会場で既に注意を向けている
+
+## Updates
+
+### 2026-11-09 台本のファクトチェックから（[[explainer-script-factcheck-2026-11]]）
+
+- 原典の例外を落としていた: references/critique.md は "no frames where everything is static unless it is a deliberate hold on a beat" と書き、拍の上の意図した hold は認めている。「2〜4 秒ごと」「カットは小節の頭」は手順書の決まりで、効果を測った値ではない

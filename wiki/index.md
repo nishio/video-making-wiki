@@ -231,3 +231,4 @@
 - [survey-2026-11-round2-summary](analyses/survey-2026-11-round2-summary.md) — 第 2 回のネット上の知見のサーベイ（2026-11-09、web- 53 ページ）のまとめ。西尾の指示の 3 領域（Opus 5.5 が出たあとのもの、作品のプロモーション的な動画、普遍的なデザイン知識）それぞれで何が…
 - [ready-to-start-2026-11-10](analyses/ready-to-start-2026-11-10.md) — 第 3 回の主な出力。明日から着手できること 11 項目（手順・確かめ方・所要・西尾が決めること・最終的な「動画の作り方の解説動画」の材料）と、その解説動画の型・構成の案
 - [survey-2026-11-round3-summary](analyses/survey-2026-11-round3-summary.md) — 第 3 回のサーベイ（web- 83 ページ）のまとめ。「どの手段で、どの機械で、何を入れて、どう始めるか」を埋めた。足りない領域の判断、分かったこと、経験と文献の食い違い、読めなかったもの
+- [explainer-script-factcheck-2026-11](analyses/explainer-script-factcheck-2026-11.md) — 「動画の作り方の解説動画」の台本草稿の 15 の主張を原典で確かめた結果。そのまま可 1、言い方を直す 14（直した文の案付き）。wiki のずれは各ページの Updates に

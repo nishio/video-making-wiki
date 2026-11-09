@@ -85,3 +85,11 @@ sources:
 - X のタイムラインで、今どれだけ音なしで見られているかの X 自身の数字は見つけていない（[[web-x-video-ads-best-practices]]）
 - MEC の「音あり・なしで brand lift は変わらない」は 2016 年の社内調査で、中身が公開されていない
 - 日本の利用者で比率が違うか（電車内での視聴など）は、どの資料も扱っていない
+
+## Updates
+
+### 2026-11-09 台本のファクトチェックから（[[explainer-script-factcheck-2026-11]]）
+
+- 表の YouTube の行（音あり前提）に抜けがある。YouTube のヘルプ（Use the inline player、https://support.google.com/youtube/answer/7640367 、取得 2026-11-09）は、ホームと検索結果の再生について "videos will begin to play on mute with captions auto-enabled" と書く
+- X の行: X の公式は広告に「音なしへの備え」（"A sound-off strategy"）を勧めるだけで、タイムラインが音なしで流れるとは書いていない。縦長全画面の広告は "sound-on by default"
+- App Store のプレビュー動画も既定は音なし（"By default, app previews play with the sound muted"、https://developer.apple.com/app-store/app-previews/）

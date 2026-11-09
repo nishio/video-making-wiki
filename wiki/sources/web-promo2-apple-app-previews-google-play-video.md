@@ -89,3 +89,10 @@ sources:
 - 両社とも、プレビュー動画の有無や中身で何が変わったか（インストール率など）を、このページでは数字で出していない。効果は確かめられない
 - Google の行動喚起の禁止は、動画の項では「Highly recommended」の下にある。動画の文字にも Metadata policy の規約として効くのかは、ページからは読み切れなかった
 - 生成映像を「補助」として一部に使うことが、Apple の 2.3.4 で許されるのか（画面収録に重ねる「video overlays」に入るのか）は書かれていない
+
+## Updates
+
+### 2026-11-09 台本のファクトチェックから（[[explainer-script-factcheck-2026-11]]）
+
+- 2.3.4 の「アプリ自身の画面収録だけ」は**プレビュー動画（App Previews）**の決まりで、App Store 全体の決まりではない。現行の Guidelines（Last Updated: October 16, 2026）には 2.3.14 の creative assets（"Creative assets allow you to highlight the value of your app in new ways compared to app-in-use screenshots and preview videos"）があり、ブランドや季節の企画を見せる画像・動画を置ける（iOS 27 以降。https://developer.apple.com/app-store/asset-best-practices/）
+- プレビュー動画は既定で音なし、ナレーションと文字の重ねは可（2.3.4 "You can add narration and video or textual overlays"）

@@ -75,3 +75,9 @@
 
 - 西尾: 公開済みの動画の閃光の検査は今やらない。解説動画が重要。一般向け（AI を日常的に使いこなす技術力のある人、最初は未踏ジュニア）、2026-11 時点のノウハウを「三つの型」と「型ごとのノウハウ」で、声は TTS、YouTube で一般公開
 - origin と ready-to-start の Updates に記録。台本の草稿は Mac の ~/video-making-explainer で作る
+
+## [2026-11-09 09:01] filing-back | analyses/explainer-script-factcheck-2026-11: 解説動画の台本草稿の 15 の主張を原典で確かめた
+
+- そのまま可 1（Claude は動画を直接は出せない）、言い方を直す 14、削る 0。直した文の案付き。台本（Mac の ~/video-making-explainer）は直していない
+- 3 つの担当（配信先の規則・AI のモデルの docs・研究）が原典を開き、項目 15 はまとめ役が wiki の範囲で確かめた
+- wiki のずれを Updates に: promo（最初の 3 秒 → 3〜5 秒）、web-digiday（YouTube のホームは音なし）、web-promo2-apple（2.3.4 はプレビュー動画だけ、2.3.14）、web-opus-hculap・howseen（hold の例外）、after-opus55（聞けないは API の条件つき）、design-fundamentals（拍の同期の研究）、web-motion-wcag（版の日付、英国の基準）、web-check-ja-speech-rate-mora（石本の要旨と本文の食い違い）、web-muller（d の中身）、web-embed-ladner（"Sometimes it is good to"）
