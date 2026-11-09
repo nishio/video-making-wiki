@@ -102,3 +102,8 @@
 - 新規 sources/exp-explainer-video-2026-11.md: 起点の西尾の発言、作り（ナレーションの長さが時刻表、引用は ffmpeg の overlay、make.sh）、三つの声の聞き比べ、AivisSpeech の核の指定で直した語、指定が効かなかったエフエフエムペグ、F0 の測定が半分の高さを拾った誤り、レビューの受け取り方（Drive・ドキュメントのコメント・db つきの非公開ページ）、プロセス動画への西尾の指摘
 - Updates: sources/exp-galleria-tts-and-singing（Open Questions の「AivisSpeech と耳で比べた記録が無い」への答え、核の指定の挙動）
 - 公開: 本編 https://youtu.be/IDkRFwiFXFI 。プロセス動画の URL は未記録
+
+## [2026-11-09 19:25] file back | exp-tsugigami-promo に時系列（解説動画の材料）
+
+- 西尾「解説動画を作る上で時系列の出来事は記録しておきたい」。会話記録の発言時刻と作業場のファイル時刻から、10:15 の引き継ぎから 18:28 の YouTube 投稿までの表を足した
+- 西尾の問い「まずこのプロジェクトのソースコードを見て強みの案を出したんだっけ？」への答えも表に: ソースコードは読んでいない。README・開発 wiki・西尾の会話の raw・LOG・書き出し JSON を読んで 5 つ出した
