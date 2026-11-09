@@ -95,3 +95,8 @@ fp8 の本体は 14.3GB x 2（high noise と low noise）だが、同時には�
 - VRAM: 「LTX-2.3 は Windows local で 16GB が最低線」は二次情報で、公式の LTX-2.5 は最低 32GB。Wan2.2 A14B の公式の要件は 80GB だが、galleria では fp8 と lightx2v 4 steps で 15.8GB に収まった（実測）。公式で 16GB に収まるのは HunyuanVideo 1.5（14GB、オフロード込み）（[[web-genvid2-wan-ltx-hunyuanvideo-minimax-h3]]）
 - 「Wan は 2.2 が最後の公開世代」は 2026-11 時点でも公式と一致。2.2 系の派生（Animate-2-14B、Wan-Dancer-14B）が 2026-07〜08 に Apache-2.0 で出ている（同）
 
+
+### 2026-11-09 ホスト型の Grok Imagine の image-to-video を初めて使った
+
+- tsugigami の広告動画で、galleria から X Premium+ の枠の Grok Imagine（grok-imagine-image-2.0 で開始画像、grok-imagine-video-1.5 で i2v）を API 直叩きで 12 本。816×1104・24fps・約 6 秒で、1 本約 28 秒。人物の顔・手と、書く → 顔を上げて微笑む動きは、ローカルの 5B・A14B の実測（上）より指示に近かった（西尾が笑顔を採用。比較は統制されていない）
+- 「画面は真っ白のまま」と頼んでも書く動きに合わせて薄い線を描いた。その線を Pencil の真下のインクとして使った（[[exp-tsugigami-promo]]）

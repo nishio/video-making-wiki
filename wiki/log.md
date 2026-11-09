@@ -90,3 +90,9 @@
 - CyEC2 では何も入れず動かしていない。手順はすべて未検証（galleria で確かめる）。Mac の compose.py はこの機械に無く読んでいない
 
 ## [2026-11-09 10:57] lint | 241 ページ、重複・孤立・壊れたリンク・未登録・フロントマター不備すべて 0
+
+## [2026-11-09 19:10] file back | tsugigami の広告動画のメイキング（Mac の grasp-nishio のセッションから）
+
+- 新規 sources/exp-tsugigami-promo.md: 起点の西尾の発言、できあがりの場面表、作り（実アプリの録画＋Grok Imagine の人物動画の合成）、v1〜v6 の西尾の指摘と直し、分かったこと（自動操作の後の状態確認、場面のつなぎ、四隅の追跡、画面の向き、モデルが描いた線をインクに、冒頭 3 秒）、数字、落とし穴、YouTube の開示
+- Updates: concepts/work-promotion-video（暫定の答えの形の実例）、sources/exp-galleria-local-video-generation（ホスト型 Grok Imagine の i2v の初使用）
+- 公開: https://youtube.com/shorts/1qKsNrwIxCk

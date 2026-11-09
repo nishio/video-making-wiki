@@ -86,3 +86,8 @@ sources:
   - 自動で詰める道具（無音・止まった画面で切る）は、処理の待ちを「dead space」として消す側に働く。暫定の答えの「時間と因果を偽らない」を守るのは、今は人の判断（[[web-edit-auto-auto-editor]]、[[web-edit-text-final-cut-pro-vrew]]）
   - UGC の編集課題では、文字と図の出来が判断の 91% を決め、AI はそこで一番負けた（勝ちか引き分けは 6.8%、[[web-edit-research-timeline-bench-medit-bench]]）。暫定の答えの 2「文字・図・数値の強調はコードで描いて重ねる」と同じ向き
 - 実物の収録とコードで描いた重ねを、編集ソフトで直せる形で渡す道: OTIO で区間を渡し、描いた部分は透明の動画に焼いて上に置く（Remotion の公式の skill の方針、[[web-edit-agent-opentimelineio-edl-fcpxml]]）
+
+### 2026-11-09 tsugigami の広告動画で暫定の答えの形を作った
+
+- 画面の中身は公開中のアプリを合成のペン入力で動かした録画、人物の場面だけ Grok Imagine の生成動画にし、画面の四隅を追跡して録画を貼った。YouTube の「AI の使用」は「はい」、説明欄に何が実物で何が生成かを書いた（[[exp-tsugigami-promo]]）
+- 西尾は冒頭で作品にしかない動き（紙を継ぐ）を見せることを求めた（「冒頭数秒でキャッチするべきって話では？」）。Derek Lieu の「作品にしかない hook」と同じ向き
