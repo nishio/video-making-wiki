@@ -13,7 +13,7 @@ sources:
 
 公開:
 - 本編 https://youtu.be/IDkRFwiFXFI （八回目、6 分 36 秒）
-- プロセス動画: 西尾が公開（URL は未記録）
+- プロセス動画 https://youtu.be/Ezzcld2rbL8 （「「動画の作り方」の作り方」、5 分 51 秒）
 
 ## 起点（西尾の発言）
 
@@ -117,6 +117,6 @@ sources:
 
 ## Open Questions
 
-- プロセス動画の YouTube の URL。
+- （解決 2026-11-09）プロセス動画の URL は https://youtu.be/Ezzcld2rbL8
 - プロセス動画の「11,326 コマを一枚ずつ撮り」は、本編の一回目の数。公開版（6:36）は約 11,890 コマで、直さずに公開した。
 - AivisSpeech で指定が効かない語の条件（英字由来の語か、句の長さか）は分かっていない。
