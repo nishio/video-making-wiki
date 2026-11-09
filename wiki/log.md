@@ -111,3 +111,7 @@
 ## [2026-11-09 20:50] file back | exp-tsugigami-promo にメイキングの解説動画の公開と直し
 
 - https://youtu.be/aXGEaLMI7Fs 。西尾の直し（読み、表示の時刻、見本の出し分け、「美人にして」を隠す）と、語の時刻の測り方を Updates に
+
+## [2026-11-09 21:41] filing-back | ai-editing に Premiere 27 への更新と契約の確認
+
+- Updates: 西尾の Mac の Premiere を 25.3.0 から 27.0.0 に更新（西尾が Creative Cloud で。2025 は消えた）。契約は Premiere 単体の年間・月払いで続いている見込み（2026-09-02 の更新の通知メール、解約のメールなし）。OTIO で Premiere に渡す道が Mac で試せるようになった（27 で読めるかは未検証）。OTIO の平易な説明
