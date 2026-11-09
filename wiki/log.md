@@ -96,3 +96,9 @@
 - 新規 sources/exp-tsugigami-promo.md: 起点の西尾の発言、できあがりの場面表、作り（実アプリの録画＋Grok Imagine の人物動画の合成）、v1〜v6 の西尾の指摘と直し、分かったこと（自動操作の後の状態確認、場面のつなぎ、四隅の追跡、画面の向き、モデルが描いた線をインクに、冒頭 3 秒）、数字、落とし穴、YouTube の開示
 - Updates: concepts/work-promotion-video（暫定の答えの形の実例）、sources/exp-galleria-local-video-generation（ホスト型 Grok Imagine の i2v の初使用）
 - 公開: https://youtube.com/shorts/1qKsNrwIxCk
+
+## [2026-11-09 19:14] filing-back | 解説動画「動画の作り方 2026年11月」とプロセス動画の制作・公開（Mac の grasp-nishio のセッションから）
+
+- 新規 sources/exp-explainer-video-2026-11.md: 起点の西尾の発言、作り（ナレーションの長さが時刻表、引用は ffmpeg の overlay、make.sh）、三つの声の聞き比べ、AivisSpeech の核の指定で直した語、指定が効かなかったエフエフエムペグ、F0 の測定が半分の高さを拾った誤り、レビューの受け取り方（Drive・ドキュメントのコメント・db つきの非公開ページ）、プロセス動画への西尾の指摘
+- Updates: sources/exp-galleria-tts-and-singing（Open Questions の「AivisSpeech と耳で比べた記録が無い」への答え、核の指定の挙動）
+- 公開: 本編 https://youtu.be/IDkRFwiFXFI 。プロセス動画の URL は未記録

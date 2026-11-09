@@ -106,3 +106,10 @@ galleria には楽曲生成の実行記録が無い。2026-09-04 の調査で、
 - 同じ整理の「Suno は有料プランでも自らを author と称する」に当たる条文は、Suno の 2026-09-03 版の規約に見当たらない。Pro・Premier には「all of its right」を譲渡すると書く（[[web-means-sound-suno-udio-elevenlabs-music-terms]]）
 - 「license で在庫が二分される」には、名義と売上の軸が足りない。Fish は年商 50 万ドル、Live2D は売上 1,000 万円が境（[[web-means-voice-fish-qwen3-sarashina-kokoro]]、[[web-means-voice-heygen-live2d-avatar]]）
 - 聞き比べの機械の判定が耳の代わりにならないことは、AudioJudge（発音・話速の判定が偶然並み）と同じ向き（[[web-means-critic-omni-judge-audiojudge]]）
+
+### 2026-11-09 解説動画で AivisSpeech・VOICEVOX・Irodori を聞き比べた（[[exp-explainer-video-2026-11]]）
+
+- Open Questions の「AivisSpeech と耳で比べた記録も無い」への答え。台本 33 行を三つで焼いて西尾が比べ、まおを選んだ（「まおがいいな」）。Irodori は galleria の venv が torch 2.10.0+cpu で、CPU で 1 行 20〜80 秒、半数以上の行でピークが 1.0 に触れた
+- AivisSpeech のアクセント核（`accent`）の書き換えは F0 に効く。`moras[].pitch` は 0 で返り、一音ずつは指定できない。同じ入力でも波形は毎回変わる。句だけを切り出した query は 500 になる
+- 核の指定が反映されない語があった（エフエフエムペグ）
+
