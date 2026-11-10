@@ -102,3 +102,7 @@ sources:
 - 一本作る手順は [[ready-to-start-2026-11-10]] の 3。段階表示の図の道具（Mermaid の step、D2 の steps、excalidraw-animate）は [[expression-means]]
 - 流しっぱなしでは読み違いを話し手がその場で補えないので、読み辞書の版管理が効く（[[web-means-voice-voicevox-aivisspeech-user-dictionary]]）
 - THINKLET の動画（ずんだもんのナレーション入り）は、VIS 2015 の規則なら、話し手が上に乗るときは不可。話し手が黙っていたなら矛盾しない（未確認のまま）
+
+### 2026-11-10 事例紹介
+
+- 西尾の過去作品のうち公開されているものを、型ごとに一行の紹介・作り方・公開 URL・経験のページで並べた: [[nishio-works]]（embed の節）。repo の README.md からも入れる

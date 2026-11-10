@@ -60,6 +60,8 @@ youtube/UPLOAD.md    投稿の設定・タイトル・説明欄
 
 ## 1. 台本
 
+事例: Gyazo の 47 秒（作業報告をやめて主役を決めた）、クオリアさんの解説動画（細かい数値を読み上げない）（[[nishio-works]]）
+
 **やること**
 - script-draft.md の冒頭に、西尾が決めたこと（型・見る人・声・出す先）を原文で書き、節ごとに **画面**（映すものの案）と **ナレーション**（`> ` の行）を書く。本編は各主張の後ろに `[ ]` で出典の wiki ページを書いた
 - 末尾に「西尾に決めてほしいこと」を番号で並べ、決まったら打ち消し線と西尾の原文を書く（本編・プロセスの script-draft.md）
@@ -84,6 +86,8 @@ youtube/UPLOAD.md    投稿の設定・タイトル・説明欄
 
 ## 2. 事実確認
 
+事例: 動画の作り方 2026年11月（主張 15 個を原典で）、デジタル民主主義の川 60 秒版（講演の数字を一次ソースで）（[[nishio-works]]）
+
 **やること**
 - 台本の言い切っている主張を選び、wiki のページでなく原典（公式ページ・規格・論文）を開いて確かめ、言い方を直した案の文を作る
 
@@ -99,6 +103,8 @@ youtube/UPLOAD.md    投稿の設定・タイトル・説明欄
 - 起きた: タイトルで「AI」とぼかして「全部は AI に見せなかった」と書いたが、実際は 1 万枚をモデルに見せていて論理が崩れた。気づいた: 西尾の指摘。次は: 「AI」と書かずモデル名を出す（[[exp-gyazo-resumption-video]]、[[exp-html-capture-pipeline]]）
 
 ## 3. 声
+
+事例: クオリアさん pilot（SAPI）→ makingof（AivisSpeech）、動画の作り方（三つの声の聞き比べ）、THINKLET のデモ（ずんだもん）（[[nishio-works]]）
 
 ### 3a. 声を選ぶ
 
@@ -177,6 +183,8 @@ python tts/accent.py show "少なくとも三通りあって、"   # 句ごと�
 
 ## 4. 時刻表
 
+事例: 動画の作り方・tsugigami のメイキング（声の長さから時刻表）（[[nishio-works]]）
+
 **やること**
 - 合成した wav の実際の長さを並べて、行ごとの開始・終了の秒を出す。音の連結リストと、描画用の時刻表と、引用を重ねる区間を同時に書き出す
 
@@ -210,6 +218,8 @@ python3 tts/cues.py   # メイキング: 語の手前までの合成の長さ ×
 - 起きた: 字幕を読む速さで書いた 60 秒の台本（英語版）が、合成音声では約 107 秒になった。次は: 時刻表は台本の字数でなく、合成した声の長さから作る（[[exp-democracy-river-video]]、[[experience-lessons-2026-11]]）
 
 ## 5. 描画
+
+事例: ショーリール 15 秒（canvas に描いて撮る型の最初）、Gyazo の 47 秒（軽い描画で作り直しを回す）（[[nishio-works]]）
 
 **やること**
 - src/explainer.html: 1920×1080 の canvas、`window.FPS = 30`、`window.TOTAL_FRAMES = Math.ceil(window.DUR * FPS)`。timeline.js を `<script>` で読む。`renderFrame(f)` は時刻だけの純関数（ファイル冒頭のコメント）
@@ -247,6 +257,8 @@ NOSUB=1 node capture.mjs stills 3 # 字幕なし（プロセス・メイキン�
 - 起きた: Homebrew の Python 3.13/3.14 の numpy が壊れていた。次は: 動く版（3.11）で回し、README に書く（[[exp-html-capture-pipeline]]）
 
 ## 6. 引用の重ね
+
+事例: 動画の作り方（引用 3 本を ffmpeg で重ねる）、tsugigami の広告動画（実アプリの録画と生成動画の合成）（[[nishio-works]]）
 
 **やること**
 - 引用の映像・画像は canvas に枠と名札だけ描き、中身は compose.py が ffmpeg の overlay で重ねる。区間は out/overlays.json（`src`・`from`・`start`・`end`・`box`・`label`）
@@ -299,6 +311,8 @@ python3 compose.py stills 40  # メイキング: 静止画に引用のそのコ�
 
 ## 8. レビューの受け取り
 
+事例: 動画の作り方（出先でスマホ、Google ドキュメントのコメント）、tsugigami のメイキング（原稿の書式をそのまま合成の入力に）（[[nishio-works]]）
+
 **やること**
 - 書き出しのたびに、西尾が見られる場所へ置き、直しを受け取る。置き方は西尾のいる場所で選ぶ
   - 出先でスマホだけ: 小さくした動画を Google ドライブへ。文言は Google ドキュメントに台本を置く
@@ -328,6 +342,8 @@ ffmpeg -y -i out/explainer_draft$N.mp4 -c:v libx264 -crf 30 -preset slow -vf sca
 - 起きた: 動きが大事な版を静止画で見せても評価できなかった。次は: 全編の前に、短い動画（一節・数秒の A/B）を見せて選んでもらう（[[experience-lessons-2026-11]]）
 
 ## 9. 公開
+
+事例: デジタル民主主義の川 60 秒版（X は最初のコマがサムネイル）、tsugigami の広告動画（生成の人物で AI の使用「はい」）（[[nishio-works]]）
 
 **やること**
 - youtube/UPLOAD.md に、投稿の素材と設定と説明欄を書き、西尾が YouTube Studio から投稿する。投稿後に URL を UPLOAD.md に追記して commit する（本編 9c67dc6、プロセス a725595）
@@ -375,3 +391,7 @@ ffmpeg -y -i out/explainer_draft$N.mp4 -c:v libx264 -crf 30 -preset slow -vf sca
 - 1〜9 の各段の末尾に **踏んだ失敗と直し方** を足した（45 行）。材料は exp-explainer-video-2026-11、exp-tsugigami-making、exp-tsugigami-promo、exp-html-capture-pipeline、exp-galleria-ffmpeg-measurement-and-delivery、exp-galleria-tts-and-singing、exp-qualia-video、exp-gyazo-resumption-video、exp-democracy-river-video、talk-three-videos-2026-11、experience-lessons-2026-11、explainer-script-factcheck-2026-11。気づき方が経験のページに書かれていないものは「記録に無い」と書いた
 - 「読み方」に、失敗に気づいて直したらその場で該当の段に一行足す決まりと、このページが Mac の skill video-making から最初に読まれることを書いた
 - 指示の例のうち「行の頭の数字やアルファベットの誤読」は、wiki の経験のページに「行の頭」という条件の記録が見つからなかったので、数字・英字の誤読（H.264・2026 年・Image 2.0）として書いた
+
+### 2026-11-10 事例紹介へのリンク
+
+- 西尾「nishioの過去作品も適宜事例紹介ページに載せて、そこから必要なところにリンクがあるべき」。1〜6・8・9 の段の頭に、参考になる作品を [[nishio-works]] へのリンクで足した

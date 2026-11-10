@@ -20,6 +20,7 @@
 
 ## Entities
 
+- [nishio-works](entities/nishio-works.md) — 事例紹介。西尾の動画作品のうち公開されているもの（talk 6・embed 1・promo 4）を、一行の紹介・型・作り方・公開 URL・経験のページで並べた。手順書の段から見る事例の表つき
 
 ## Sources
 
