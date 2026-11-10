@@ -91,3 +91,7 @@ URL と出典リンクは `~/nishio-showreel/README.md` と `youtube/UPLOAD*.md`
 
 - ~/nishio-showreel/README.md の「公開（YouTube, 2026-09-27）」の表より: 15 秒 日本語 https://youtu.be/l7P2YNQQEnU 、英語 https://youtu.be/xSXn2iGzys0 、縦長ショート https://youtube.com/shorts/8Ao3mrbEVMU 。事例紹介 [[nishio-works]] に載せた
 - 1 分版の URL も README にあるが、写真の大半が第三者の撮影なので、この wiki には書かない
+
+### 2026-11-10 1 分版の公開 URL（西尾の答え）
+
+- 1 分版「西尾泰和 — 1分でわかる 研究・執筆・育成・ブロードリスニング」https://youtu.be/N82ljzZCFs4 。西尾「載せてよい（第三者の撮影の写真があっても可）」で、上の項の「この wiki には書かない」を改め、事例紹介 [[nishio-works]] にも載せた

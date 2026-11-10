@@ -3,7 +3,7 @@ type: entity
 summary: 事例紹介。西尾の動画作品のうち公開されているものを、一行の紹介・型（promo/talk/embed）・作り方・公開 URL・詳しい経験のページで並べたもの。公開 URL が wiki に無いものは「公開先は未確認」と書く
 video_types: [promo, talk, embed]
 sources:
-  - exp-explainer-video-2026-11.md、exp-tsugigami-promo.md、exp-tsugigami-making.md、exp-gyazo-resumption-video.md、exp-thinklet-reading-demo-video.md、exp-qualia-video.md、exp-nishio-showreel.md、exp-democracy-river-video.md、exp-forest-misc-video-notes.md、exp-html-capture-pipeline.md、exp-timeline-2026.md
+  - exp-explainer-video-2026-11.md、exp-tsugigami-promo.md、exp-tsugigami-making.md、exp-gyazo-resumption-video.md、exp-thinklet-reading-demo-video.md、exp-qualia-video.md、exp-nishio-showreel.md、exp-democracy-river-video.md、exp-forest-misc-video-notes.md、exp-sutra-videos-overview.md、exp-sutra-hype-editions.md、exp-sutra-songs-on-music.md、exp-sutra-sync-subtitles.md、exp-sutra-voicevox-singing.md、exp-html-capture-pipeline.md、exp-timeline-2026.md
 ---
 
 # 事例紹介（西尾の過去作品）
@@ -41,7 +41,21 @@ sources:
 | tsugigami の広告動画（26 秒、YouTube ショート、2026-11-09） | 手書きノート Web アプリ tsugigami の広告 | 実アプリの録画（ペン入力はプログラムから）と Grok Imagine の人物動画を、画面の四隅の追跡ではめ込んで合成。v1〜v6 | https://youtube.com/shorts/1qKsNrwIxCk | [[exp-tsugigami-promo]] |
 | Visual Jev 4BでGyazoを仕分ける — 1万枚をGPUで44分（47 秒、2026-09-29） | 約 13 万枚の画像の配信再開の前に、ローカルのモデルで仕分けた作業を伝える | canvas に描いて撮り、BGM は numpy で合成。2分52秒 → 1分55秒 → 47 秒のハイテンポ版へ作り直した。西尾の評価は「Jevの凄さのアピール重視で技術の詳細を伝えるには適切ではない」 | https://youtu.be/3YlYrPGbluA | [[exp-gyazo-resumption-video]] |
 | 西尾の自己紹介のショーリール 15 秒（日本語・英語・縦長ショート、2026-09-27） | 1 つの点が形を変えて経歴をたどるモーショングラフィックス。写真なし | canvas に描いて撮る型を最初に作った作品。粒子 2400 個、BGM は numpy で合成 | 日本語 https://youtu.be/l7P2YNQQEnU 、英語 https://youtu.be/xSXn2iGzys0 、縦長ショート https://youtube.com/shorts/8Ao3mrbEVMU | [[exp-nishio-showreel]] |
+| 西尾泰和 — 1分でわかる 研究・執筆・育成・ブロードリスニング（ショーリール 1 分版、60 秒、2026-09 制作） | 15 秒版と同じ事実の集まりを、書影・登壇などの写真で 7 章に分けて見せる | 15 秒版の型に写真を足した。素材は 1 点ずつ出典・権利者・確信度を MANIFEST.md に書いてから使い、画像を描くので HTTP サーバーを立てて撮った。画面に出す事実は一次ソースと突き合わせた | https://youtu.be/N82ljzZCFs4 | [[exp-nishio-showreel]] |
 | デジタル民主主義の川の流れを見る — 60 秒版（2026-09-29） | 34 分の講演を、X の無音の自動再生でも字幕だけで通じる 60 秒の動画に | 上の型を流用。字幕と合成 BGM だけ、写真なし。X 用は最初のコマにサムネイル | 日本語 https://www.youtube.com/watch?v=QElvtdsQgdQ （X にも投稿） | [[exp-democracy-river-video]] |
+
+## 経文・真言の動画（sutra-videos）
+
+声は VOICEVOX の歌唱 API（[[exp-sutra-voicevox-singing]]）、画は Python と Pillow で 1 コマずつ描く（[[exp-sutra-videos-overview]]）。型はこの wiki での当てはめで、テンポで上げる版と曲に載せる版は promo 寄り、同期解説は embed と talk の間。公開 URL は Mac の ~/sutra-videos の記録から、YouTube の oembed で西尾のチャンネルと確かめた 6 本（2026-11-10）。
+
+| 作品 | 型 | 一行の紹介 | 作り方 | 公開 | 詳しく |
+|---|---|---|---|---|---|
+| アゲアゲ般若心経【メロディ版】（3:09、2026-09-27） | promo | 128→176BPM へテンポを上げながら般若心経を唱える。経の構造（否定・列挙・咒）をそのまま演出と曲の構造にした | R1 だけ書き出してレビューを回し、全編は最後。読経も「単音の歌」として合成し、旋律は本人の違和感で止めるまで広げた | https://youtu.be/y-geMFLAoRc | [[exp-sutra-hype-editions]] |
+| 読経できるかな？ 般若心経【読経版】（2026-09-27） | promo | 上のアゲアゲ版の読経版（v3.9、詠唱は単音）。メロディ版とはサムネイルの言葉・配色・帯で区別した | 同上 | https://youtu.be/0LLjDnq16uk （題名の【読経版】で対応をつけた） | [[exp-sutra-hype-editions]] |
+| 真言言えるかな？【中ボス慈救咒・ラスボス火界咒】（約 2:26、2026-09-27） | promo | 19 尊の名を出し、間をおいて真言を唱える。真言の短い順に並べ、長さを難易度にした | 呼びかけ → 間 → 答えの繰り返し。リズムは西尾が rhythm.txt を直接書き換えた | https://youtu.be/KLWEdhb-Ajk | [[exp-sutra-hype-editions]] |
+| 般若心経のカノン｜Heart Sutra Canon（3:22、2026-11-08） | promo | パッフェルベルのカノンの通奏低音の上で、3 声が 2 小節ずつ遅れて同じ旋律で唱える（v2） | 1 声ずつ聴くページで本人の耳でレビュー。声がそろう所を増やし、画面は唱え始める拍の位置に字を置いてそろいを縦の列で見せる | https://www.youtube.com/watch?v=zLO-0EyS_CM | [[exp-sutra-songs-on-music]] |
+| 般若心経のカノン(Heart Sutra Canon) | promo | カノンのもう 1 本。wiki の記録では v1（2:58）を 2026-09-27 に公開していて、これがそれと思われるが、長さ・公開日は確かめていない | 同上 | https://youtu.be/KjvsBlcZVtk （v1 との対応は未確認） | [[exp-sutra-songs-on-music]] |
+| 般若心経 | 未確認 | どの版か、wiki の記録だけでは決められない。wiki で YouTube に出ていると記録があるのは、カノンの概要欄から案内した般若心経の解説版（同期解説、1 回版 107 秒）だが、この URL との対応は確かめていない | — | https://www.youtube.com/watch?v=Y9366zKpRRI （どの版かは未確認） | [[exp-sutra-videos-overview]] |
 
 ## 手順書の段から見る事例
 
@@ -51,15 +65,16 @@ sources:
 |---|---|
 | 1. 台本 | Gyazo の 47 秒（作業報告をやめて主役を決めた）、クオリアさん（細かい数値を読み上げない） |
 | 2. 事実確認 | 動画の作り方 2026年11月（主張 15 個を原典で）、デジタル民主主義の川 60 秒版（講演の数字を一次ソースで） |
-| 3. 声 | クオリアさん pilot（SAPI）→ makingof（AivisSpeech）、動画の作り方（三つの声の聞き比べとイントネーション）、THINKLET（ずんだもん） |
+| 3. 声 | クオリアさん pilot（SAPI）→ makingof（AivisSpeech）、動画の作り方（三つの声の聞き比べとイントネーション）、THINKLET（ずんだもん）、経文・真言の動画（VOICEVOX の歌唱 API で読経を単音の歌として合成） |
 | 4〜6. 時刻表・描画・引用 | ショーリール 15 秒（型の最初）、Gyazo の 47 秒（軽い描画で作り直しを回す）、動画の作り方（引用 3 本を ffmpeg で重ねる）、tsugigami の広告動画（実アプリの録画と生成動画の合成） |
 | 8. レビュー | 動画の作り方（出先でスマホ、Google ドキュメントのコメント）、tsugigami のメイキング（原稿の書式をそのまま合成の入力に） |
-| 9. 公開 | デジタル民主主義の川 60 秒版（X は最初のコマがサムネイル）、tsugigami の広告動画（生成の人物で AI の使用「はい」） |
+| 9. 公開 | デジタル民主主義の川 60 秒版（X は最初のコマがサムネイル）、tsugigami の広告動画（生成の人物で AI の使用「はい」）、アゲアゲ般若心経（同じ題材の別版をサムネイルで区別）、ショーリール 1 分版（写真の出典・権利者を 1 点ずつ記録） |
 
 ## Open Questions
 
 - （答えが出た）公開先が未確認だった 3 件の URL → 2026-11-10 の Updates
 - このページに載せていない作品と理由は、2026-11-10 の log.md の項に書いた
+- 残酷な般若心経のテーゼ（YouTube i0mZXxlrxzY、[[exp-sutra-songs-on-music]] の Updates）は、Mac が確かめた 6 本に入っておらず、替え歌の権利の確認がどう決着したかも wiki では確かめていないので、載せていない。載せるかは西尾が決める
 
 ## Updates
 
@@ -70,3 +85,9 @@ sources:
   - デジタル民主主義の川 60 秒版（日本語）: https://www.youtube.com/watch?v=QElvtdsQgdQ
   - 「デジタル民主主義の川の流れを見る」34 分の事前動画: https://www.youtube.com/watch?v=qW3uzu4uU-A
 - ショーリール 1 分版は README に URL があるが、写真の大半が第三者の撮影なので、載せないままにした
+
+### 2026-11-10 ショーリール 1 分版と経文・真言の動画を載せた（西尾の答え）
+
+- ショーリール 1 分版: 西尾「載せてよい（第三者の撮影の写真があっても可）」。前の項で「第三者の撮影の写真」を理由に載せなかったのを改めた。URL は Mac から
+- 経文・真言の動画（sutra-videos）: 西尾「なんで？のせていいよ」。Mac の ~/sutra-videos の記録にあり、YouTube の oembed で西尾のチャンネルと確かめた 6 本を「経文・真言の動画」の節に載せた。exp ページとの対応は題名で付けた。カノンの KjvsBlcZVtk（v1 と思われる）と「般若心経」の Y9366zKpRRI（どの版か）は対応を確かめていない
+- 修行や行事の場所、他人のチャンネルの動画は書かない（西尾の指示）

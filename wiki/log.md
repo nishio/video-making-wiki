@@ -165,3 +165,10 @@
 - push 前の git grep（Restricted・Windows の private のパス・認証情報・社内・私生活の語など）: 置かないものの該当なし
 - README の「この wiki から作った動画」に 3 本目（tsugigami の広告動画のメイキング「広告動画を AI と作った ― 画面は本物、人物は生成」、aXGEaLMI7Fs）をサムネイルのリンクで足し、広告動画本体（YouTube ショート）と exp-tsugigami-making・exp-tsugigami-promo へつないだ（西尾の追加の依頼）
 - 西尾の答え待ち: sutra-videos の扱い、entities/nishio-works の置き場所
+
+## [2026-11-10 12:49] filing-back | 事例紹介にショーリール 1 分版と経文・真言の動画 6 本を載せた（西尾の答え）
+- entities/nishio-works: promo にショーリール 1 分版（N82ljzZCFs4。西尾「載せてよい（第三者の撮影の写真があっても可）」）。「経文・真言の動画（sutra-videos）」の節を新設し、Mac が ~/sutra-videos の記録から oembed で西尾のチャンネルと確かめた 6 本（アゲアゲ メロディ版・読経版、真言言えるかな、カノン 2 本、般若心経）を exp-sutra-* と対応をつけて並べた（西尾「なんで？のせていいよ」）。手順書の段の表の 3. 声・9. 公開に事例を足した
+- 対応を確かめていないもの: カノン KjvsBlcZVtk（v1 と思われる）、「般若心経」Y9366zKpRRI（どの版か）。そう書いた
+- 載せていないもの: 残酷な般若心経のテーゼ（Mac の 6 本に無く、替え歌の権利の決着も未確認。nishio-works の Open Questions）
+- Updates: sources/exp-nishio-showreel、exp-sutra-videos-overview、exp-sutra-hype-editions、exp-sutra-songs-on-music、exp-sutra-sync-subtitles に URL
+- 修行や行事の場所、他人のチャンネルの動画は書いていない。entities/nishio-works の置き場所と名前は西尾の答え待ち

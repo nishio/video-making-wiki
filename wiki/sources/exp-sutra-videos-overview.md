@@ -99,3 +99,16 @@ sutra-videos/CLAUDE.md の「動画の制作」節と[[exp-sutra-sync-subtitles]
 - 同期解説の真言・偈の動画は公開パッケージまで作ってあるが、公開したか・どう受けたかの記録が sutra-videos に無い
 - 公開した4本（カノン、アゲアゲ2本、真言言えるかな）の視聴者の反応は記録されていない
 - 同期解説を embed（プレゼンに埋め込む概念解説）として使えるかは試していない。45秒・3回反復・ナレーションなしという形は、講演の中で流すには向いていそうだが未検証
+
+### 2026-11-10 公開 URL（Mac の ~/sutra-videos の記録、YouTube の oembed で西尾のチャンネルと確かめた 6 本）
+
+| 題名（YouTube） | URL | この wiki のページ | 対応 |
+|---|---|---|---|
+| アゲアゲ般若心経【メロディ版】 | https://youtu.be/y-geMFLAoRc | [[exp-sutra-hype-editions]] | アゲアゲ版 v4（メロディ版） |
+| 読経できるかな？ 般若心経【読経版】 | https://youtu.be/0LLjDnq16uk | [[exp-sutra-hype-editions]] | アゲアゲ版の読経版（v3.9）。題名の【読経版】で対応をつけた |
+| 真言言えるかな？【中ボス慈救咒・ラスボス火界咒】 | https://youtu.be/KLWEdhb-Ajk | [[exp-sutra-hype-editions]] | 真言言えるかな |
+| 般若心経のカノン｜Heart Sutra Canon | https://www.youtube.com/watch?v=zLO-0EyS_CM | [[exp-sutra-songs-on-music]] | カノン v2（2026-11-08 公開・3:22、同ページの Updates） |
+| 般若心経のカノン(Heart Sutra Canon) | https://youtu.be/KjvsBlcZVtk | [[exp-sutra-songs-on-music]] | v1（2026-09-27 公開）と思われるが未確認 |
+| 般若心経 | https://www.youtube.com/watch?v=Y9366zKpRRI | 未確認 | どの版か分からない。上の表で YouTube に出ているとあるのは般若心経の解説版（[[exp-sutra-sync-subtitles]]）だが、この URL との対応は確かめていない |
+
+- Open Questions の「公開した4本」は、この 6 本に読み替える。事例紹介 [[nishio-works]] に載せた（西尾「なんで？のせていいよ」）

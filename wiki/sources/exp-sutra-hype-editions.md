@@ -120,3 +120,9 @@ sources:
 
 - 閃光は BPM で決まるので、**R1（128BPM）のレビューでは R2・R3 を判断できない**。R3 は 1 モーラ（16 分音符）約 85ms、話す速さに直すと約 11.7 モーラ／秒。測る道具と手順は [[web-check-flash-ea-iris]]、[[ready-to-start-2026-11-10]] の 1
 - 般若心経の系列では、宗教の用途を禁じる素材（OpenTracks（旧 DOVA-SYNDROME））と声（AivisSpeech の ACML の声）がある（[[web-rights-cc-ofl-asset-license-checklist]]）
+
+### 2026-11-10 公開 URL（Mac の ~/sutra-videos の記録、oembed で西尾のチャンネルと確認）
+
+- 読経版「読経できるかな？ 般若心経【読経版】」https://youtu.be/0LLjDnq16uk （題名の【読経版】で、上の表の読経版 v3.9 と対応をつけた）
+- 「真言言えるかな？【中ボス慈救咒・ラスボス火界咒】」https://youtu.be/KLWEdhb-Ajk
+- メロディ版は上の Updates の y-geMFLAoRc。3 本とも事例紹介 [[nishio-works]] に載せた
