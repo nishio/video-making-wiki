@@ -3,9 +3,9 @@ type: source
 summary: クオリアさんの 1 枚絵から PuppetLoom（レイヤー PSD から 2D パペットを作る OSS）で動くキャラクター動画を作ろうとした 2026-09-08 の試み。前段の See-Through（1 枚絵のレイヤー分解）がオンラインのデモにしか無く、接続拒否とログイン要求で止まり、リギングと録画には進まなかった
 video_types: [talk, any]
 sources:
-  - galleria C:\Users\nishi\claude-win\PuppetLoom\README.ja.md（上流 github.com/CheshireMew/PuppetLoom の clone、最終 commit f545608 2026-08-28）
-  - galleria C:\Users\nishi\claude-win\PuppetLoom\docs\VIDEO_REFERENCE_FINDINGS.md
-  - galleria C:\Users\nishi\claude-win\PuppetLoom\work\layering-review\（git 管理外。2026-09-08 の request.json / result.json）
+  - galleria の作業場の PuppetLoom の README.ja.md（上流 github.com/CheshireMew/PuppetLoom の clone、最終 commit f545608 2026-08-28）
+  - galleria の作業場の PuppetLoom の docs/VIDEO_REFERENCE_FINDINGS.md
+  - galleria の作業場の PuppetLoom の work/layering-review/（git 管理外。2026-09-08 の request.json / result.json）
   - galleria-wiki raw/2026-09-09-qualia-puppetloom-see-through-experiment.md
 ---
 

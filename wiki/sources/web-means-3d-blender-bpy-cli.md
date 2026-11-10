@@ -126,7 +126,7 @@ sources:
   #   p.compute_device_type = 'OPTIX'; p.get_devices(); [setattr(d, 'use', True) for d in p.devices]
   #   sc.render.resolution_x, sc.render.resolution_y, sc.render.fps = 1920, 1080, 30
   #   sc.render.image_settings.media_type = 'IMAGE'; sc.render.image_settings.file_format = 'PNG'   # 5.0 以後の順
-  #   f = bpy.data.fonts.load(r'C:\Users\...\fonts\NotoSansJP-Bold.otf')
+  #   f = bpy.data.fonts.load(r'<フォントの置き場>\NotoSansJP-Bold.otf')
   #   bpy.ops.object.text_add(); t = bpy.context.object; t.data.body = '合意の地図'; t.data.font = f; t.data.extrude = 0.1
   #   （カメラ・光を足し、t.rotation_euler に keyframe_insert で 1 コマ目と 90 コマ目を打つ）
   #   sc.frame_start, sc.frame_end = int(s), int(e); sc.render.filepath = out

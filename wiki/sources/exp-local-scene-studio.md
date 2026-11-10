@@ -3,8 +3,8 @@ type: source
 summary: 抽象的な日本語の指示を、ローカルの LLM で観察できる視覚要素の plan JSON に分解してから、FLUX.2 Klein で keyframe、Wan2.2 TI2V-5B で 3.4 秒の短い動画にする galleria の道具。16GB GPU でモデルを一つずつ載せ替える運用の作法が詰まっている。作品として使った記録は無い
 video_types: [embed, any]
 sources:
-  - galleria C:\Users\nishi\claude-win\local-scene-studio\README.md
-  - galleria C:\Users\nishi\claude-win\local-scene-studio\scene_studio.py（先頭の docstring と定数）
+  - galleria の作業場の local-scene-studio の README.md
+  - galleria の作業場の local-scene-studio の scene_studio.py（先頭の docstring と定数）
   - local-scene-studio は git 管理されていない（commit hash なし）
 ---
 

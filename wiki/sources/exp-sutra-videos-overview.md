@@ -55,7 +55,7 @@ sutra-videos/CLAUDE.md の「動画の制作」節と[[exp-sutra-sync-subtitles]
 
 ## Mac と galleria の分担
 
-- 正本は GitHub、Mac `~/sutra-videos` と galleria `claude-win\sutra-videos` の両方で pull/push する。「commit したか」でなく「push したか」を見る（sutra-videos/CLAUDE.md）
+- 正本は GitHub、Mac `~/sutra-videos` と galleria の作業場の `sutra-videos` の両方で pull/push する。「commit したか」でなく「push したか」を見る（sutra-videos/CLAUDE.md）
 - 2026-10-01 の残テは、割り付け（歌声）を Mac、映像を galleria で並行した。galleria 側は Codex が担当し、全編01〜04、分類名追加版、十二因縁の位置調整…と一日で十数版を重ねた（zankoku-hannya/HANDOFF.md）
 - 二拠点に分けたことで起きたこと（実際にあった）:
   - galleria にはアゲアゲ版の知識（効いた原則）が無く、それを知らないまま「かっこよさ」の改善案を作り始めていた。後から refs/ にコピーして渡した（残酷な般若心経のテーゼの制作 2026-10-01）

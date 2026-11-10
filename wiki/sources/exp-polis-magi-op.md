@@ -3,8 +3,8 @@ type: source
 summary: アニメ OP の様式（明朝の白字幕と映像の高速交互、拍ごとのカット）を借りて Polis・デジタル民主主義・Plurality を伝える 55 秒動画。HTML Canvas＋headless Chrome で描き、音は Python で合成した。v1 は「しょぼい」と言われ、実物の OP のカット密度に合わせて直したが、メロディの未検証と英語の歌声の品質不足で 2026-09-30 から止まっている
 video_types: [promo]
 sources:
-  - galleria C:\Users\nishi\claude-win\polis-magi-op\README.md（commit b5f73bc 時点の記述）
-  - galleria C:\Users\nishi\claude-win\polis-magi-op\HANDOFF.md（commit f993146 まで）
+  - galleria の作業場の polis-magi-op の README.md（commit b5f73bc 時点の記述）
+  - galleria の作業場の polis-magi-op の HANDOFF.md（commit f993146 まで）
   - polis-magi-op の git log（2c82db0 2026-09-30 〜 f993146 2026-10-06、計 10 commit）
   - polis-magi-op src/capture.mjs, src/score.py, src/op.html, sing/*.py
   - grasp-nishio LOG.md 2026-09-30 の項、grasp-nishio wiki/entities/polis-magi-op-on-galleria.md

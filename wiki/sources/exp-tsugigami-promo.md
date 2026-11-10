@@ -7,7 +7,7 @@ sources:
   - ~/tsugigami-promo/src/（make_layout.py, strokes.mjs, capture.mjs, compose.html, timeline.js, render.mjs, bgm.py, prep_clip.py, ink_marks.py）
   - ~/tsugigami-promo/youtube/UPLOAD.md
   - ~/tsugigami-promo/handoff/（galleria への依頼 3 件、CyEC2 への依頼 1 件）
-  - galleria の C:/Users/nishi/claude-win/tsugigami-promo/gen-video/manifest.json（Grok Imagine の生成記録）
+  - galleria の作業場の tsugigami-promo の gen-video/manifest.json（Grok Imagine の生成記録）
   - galleria-wiki raw/2026-11-09-grok-imagine-opening-shot-tsugigami.md
   - tsugigami repo f3df723、decisions/2026-11-09_ページの間を紙で埋める.md（CyEC2 のセッションによるアプリ側の修正）
   - grasp-nishio LOG.md の 2026-11-09 の tsugigami の各項、grasp-nishio の Claude Code session c5372788（西尾の発言）

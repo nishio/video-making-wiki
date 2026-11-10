@@ -72,7 +72,7 @@ sources:
 - **機械**: galleria Windows（README の zip＋bat が Windows 前提）。WSL2 も動作確認ありとされる。入れるもの: Style-Bert-VITS2 2.7.0（`sbv2.zip`）、内部で Python・torch（README の手順では `torch<2.4` の cu118）。費用 0、アカウント不要（初回に HF から既定モデルを落とす）。利用条件: AGPL-3.0、既定モデルごとの規約（あみたろはクレジット必須）
 - **成熟度**: 最新リリース 2.7.0（2025-08-24）、以後リリースなし。star 約 1,400（参考）。**RTX 5080（Blackwell）で README の `torch<2.4` cu118 が動くかは不明**（推測では Blackwell は新しい CUDA の torch を要するので、合成だけ CPU 版で始めるのが安全）
 - **最小の手順**（Windows。README の手順そのまま、引数は推測なし）:
-  1. `sbv2.zip`（https://github.com/litagin02/Style-Bert-VITS2/releases/latest/download/sbv2.zip ）を日本語・空白を含まないパス（例 `C:\Users\nishi\AI\apps\sbv2`）に展開
+  1. `sbv2.zip`（https://github.com/litagin02/Style-Bert-VITS2/releases/latest/download/sbv2.zip ）を日本語・空白を含まないパス（例 `<アプリの置き場>\sbv2`）に展開
   2. まず `Install-Style-Bert-VITS2-CPU.bat`（合成とマージだけ。学習はできない）をダブルクリック。エディタが自動で開けばインストール成功
   3. エディタで既定モデル（JVNV など）を選び、[[exp-qualia-video]] の 15〜30 秒の比較用原稿（`qualia-video-makingof/` の読み上げ専用原稿）を読ませる。読み違う語を辞書タブで登録
   4. API で辞書を入れる場合（推測で補ったコマンド。エンドポイントと引数名は `server_editor.py` から）:

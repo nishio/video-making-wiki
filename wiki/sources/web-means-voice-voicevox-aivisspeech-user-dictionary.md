@@ -91,11 +91,11 @@ sources:
 ## 着手の仕方（未検証。galleria で確かめる）
 
 - **何が表現できるようになるか**: 読みとアクセントを台本と一緒に版管理したナレーション。効く型は talk・embed（流しっぱなしで読み違いを話し手が補えない embed で特に効く）
-- **機械**: galleria Windows。入れるもの: **なし**（AivisSpeech Engine 1.2.0 は `C:\Users\nishi\AI\apps\AivisSpeech-Engine-1.2.0\run.exe` に既にある。[[exp-qualia-video]]）。VOICEVOX でも試すなら Engine 0.26.1 の配布版（費用 0、クレジット必須）。アカウント不要
+- **機械**: galleria Windows。入れるもの: **なし**（AivisSpeech Engine 1.2.0 は galleria に既に入っている。[[exp-qualia-video]]）。VOICEVOX でも試すなら Engine 0.26.1 の配布版（費用 0、クレジット必須）。アカウント不要
 - **成熟度**: VOICEVOX Engine は 2026-10-31 に 0.26.1、更新が続いている。AivisSpeech Engine は 1.2.0（2026-04-30）以後リリースは dev のみ、push は 2026-10-31
 - **最小の手順**（PowerShell。エンドポイントは README から、PowerShell の書き方は推測）:
   ```powershell
-  Start-Process 'C:\Users\nishi\AI\apps\AivisSpeech-Engine-1.2.0\run.exe' -WindowStyle Hidden
+  Start-Process '<AivisSpeech Engine 1.2.0 の置き場>\run.exe' -WindowStyle Hidden
   $B='http://127.0.0.1:10101'
   # 1) 辞書前の読みを記録
   $t=[uri]::EscapeDataString('声質と声付きを比べる')

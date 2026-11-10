@@ -99,7 +99,7 @@ sources:
 - **機械**: galleria WSL（Python 版）。C++ 版は galleria WSL か Windows（Visual Studio）。Mac でも Python 版は動くはず（推測）
 - **入れるもの**: `iris-pse-detection` 1.1.2（PyPI、2026-01-22）＋ numpy・opencv-python・scipy。GPU 不要。費用 0、アカウント不要。MIT（元の IRIS は BSD-3）
 - **成熟度**: 元の IRIS は 2025-01 から更新なし。Python 版は 2026-01 に一日で出た個人の移植で、使用例・検証の記録は見つけていない
-- **素材**: 公開した動画をダウンロードしない。**書き出し元の mp4** を使う。アゲアゲ版は sutra-videos の `output/` 配下（Mac の `~/sutra-videos`。ファイル名は未確認。`output/<slug>-<edition>/` の決まり（[[exp-sutra-videos-overview]]）から `output/hannya-shingyo-hype*/` の中と推測）。galleria の `claude-win\sutra-videos` には生成物が無いかもしれない（`build/` は gitignore）。無ければ Mac から scp で渡す。galleria で作り直す（`make_sutra_hype.py`）のは、ヒラギノ W9（macOS のフォント）を使うので避ける
+- **素材**: 公開した動画をダウンロードしない。**書き出し元の mp4** を使う。アゲアゲ版は sutra-videos の `output/` 配下（Mac の `~/sutra-videos`。ファイル名は未確認。`output/<slug>-<edition>/` の決まり（[[exp-sutra-videos-overview]]）から `output/hannya-shingyo-hype*/` の中と推測）。galleria の作業場の `sutra-videos` には生成物が無いかもしれない（`build/` は gitignore）。無ければ Mac から scp で渡す。galleria で作り直す（`make_sutra_hype.py`）のは、ヒラギノ W9（macOS のフォント）を使うので避ける
 
 ### 最小の手順（般若心経アゲアゲ版の R3 を測る）
 

@@ -3,9 +3,9 @@ type: source
 summary: galleria の Codex が作った「クオリアさん」が解説する動画 3 本（パイロット 93 秒、メイキング 109 秒、制作ジャーニー 6 分 33 秒）。Pillow の静止スライド＋TTS＋PyAV の決定論的な組み立てで作り、人間の評価のたびに「静止が既定」「表示文と読み上げ文を分ける」「飾りより証拠を大きく」という規則へ直していった
 video_types: [talk, embed]
 sources:
-  - galleria C:\Users\nishi\claude-win\qualia-video-pilot\README.md, script.json, render_video.py, generate_voice.ps1
-  - galleria C:\Users\nishi\claude-win\qualia-video-makingof\README.md, comparison.md, AIVISSPEECH-LICENSE.md, motion-comparison\README.md, motion-comparison\WAN22_RUNNER.md
-  - galleria C:\Users\nishi\claude-win\qualia-video-journey\README.md, script.json, render_video.py, generate_aivis_voice.ps1
+  - galleria の作業場の qualia-video-pilot の README.md, script.json, render_video.py, generate_voice.ps1
+  - galleria の作業場の qualia-video-makingof の README.md, comparison.md, AIVISSPEECH-LICENSE.md, motion-comparison\README.md, motion-comparison\WAN22_RUNNER.md
+  - galleria の作業場の qualia-video-journey の README.md, script.json, render_video.py, generate_aivis_voice.ps1
   - 3 ディレクトリとも git 管理されていない（commit hash なし）。日付は README と galleria-wiki raw による
   - galleria-wiki raw/2026-08-12-qualia-san-explainer-video-pilot-feedback.md, -tts-feedback-followup.md, -motion-feedback-followup.md
   - galleria-wiki raw/2026-09-26-qualia-san-explainer-video-conversation-closeout.md
@@ -37,11 +37,11 @@ sources:
 4. **QA**: scene ごとの preview、全区間の大型 preview シート、完成 MP4 を再 decode したコンタクトシート、`qa.json`（scene 数、区間数、stream、尺、10 分上限、音量の余裕、話者、帰属、公開 URL）。journey v4 では完成 MP4 の全 frame を decode し、40 区間を preview＋字幕と照合（最小 PSNR 37.36 dB、字幕 40 件すべて 1 行）
 
 ```powershell
-Start-Process 'C:\Users\nishi\AI\apps\AivisSpeech-Engine-1.2.0\run.exe' -WindowStyle Hidden
-Set-Location C:\Users\nishi\claude-win\qualia-video-journey
+Start-Process '<AivisSpeech Engine 1.2.0 の置き場>\run.exe' -WindowStyle Hidden
+Set-Location <galleria の作業場>\qualia-video-journey
 .\generate_aivis_voice.ps1
-& 'C:\Users\nishi\AI\apps\ComfyUI_windows_portable\python_embeded\python.exe' .\render_video.py --validate-only
-& 'C:\Users\nishi\AI\apps\ComfyUI_windows_portable\python_embeded\python.exe' .\render_video.py
+& '<ComfyUI portable の置き場>\python_embeded\python.exe' .\render_video.py --validate-only
+& '<ComfyUI portable の置き場>\python_embeded\python.exe' .\render_video.py
 ```
 （journey README「再生成手順」より、引数は一部省略）
 

@@ -53,7 +53,7 @@ H3 の peak VRAM と生成時間は記録されていない（local-ai-model-cat
 
 ## 関連する旧デモ（PSD から OpenCV で動かす）
 
-`C:/Users/nishi/claude-win/PSDMaker-A/scripts/qualia_animate.py` は、PSD の通常合成と意味ラベル（耳・前後髪・頭・胴体のマスク）から、240 x 240 の格子で変位場を計算し、呼吸と首の傾きを周期関数、髪を位相遅れ、耳を根元固定の小さな揺れにして `cv2.remap` で描く。10 秒・30fps・960 x 960、FFmpeg に RGB24 の raw frames を pipe して H.264・CRF18・yuv420p・faststart の無音 MP4。41 時点の変位場で Jacobian の最小値 > 0.3、ループ端点の RGB 差 ≤ 1 をコードで要求している（標本検査で、全時刻の見た目の保証ではない）。（parts-animation-backends.md）
+galleria の作業場の `PSDMaker-A/scripts/qualia_animate.py` は、PSD の通常合成と意味ラベル（耳・前後髪・頭・胴体のマスク）から、240 x 240 の格子で変位場を計算し、呼吸と首の傾きを周期関数、髪を位相遅れ、耳を根元固定の小さな揺れにして `cv2.remap` で描く。10 秒・30fps・960 x 960、FFmpeg に RGB24 の raw frames を pipe して H.264・CRF18・yuv420p・faststart の無音 MP4。41 時点の変位場で Jacobian の最小値 > 0.3、ループ端点の RGB 差 ≤ 1 をコードで要求している（標本検査で、全時刻の見た目の保証ではない）。（parts-animation-backends.md）
 
 ## 以後に調べた候補（galleria では未実行）
 

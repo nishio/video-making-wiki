@@ -72,7 +72,7 @@ fp8 の本体は 14.3GB x 2（high noise と low noise）だが、同時には�
 - A14B の license（apache-2.0）は取得**後**に repository metadata で確認したもので、upstream の model card は未読。公開・商用の前に確かめ直すとされている。
 - Ollama が GPU を 14GB 掴んでいると大きいモデルは載らない。Claude Code の auto mode は Claude からの `ollama stop` を「稼働中の処理への干渉」として拒否した（所有者が外した）。（irodori-tts-v4-large.md の記録だが動画でも同じ）
 - 新しい prompt の 1 本目だけ遅いのは、text encoder と生成モデルが同じ GPU でスワップしている時間であることが多い。A14B fp8 の cold 37.2 秒 / warm 30.2 秒（POST から history 確定まで）はその形ではない。（text-encoder-residency.md）
-- 5B の 49 frames をダンスの loop にするのに `0..48 + 47..1` の ping-pong（96 frames、4.0 秒）にした。逆再生を含むので一方向の本当の周期ではない。成果物は `C:/Users/nishi/claude-win/output/qualia-dance/`。5B を削除したので再実行には再導入が要る。
+- 5B の 49 frames をダンスの loop にするのに `0..48 + 47..1` の ping-pong（96 frames、4.0 秒）にした。逆再生を含むので一方向の本当の周期ではない。成果物は galleria の作業場の `output/qualia-dance/`。5B を削除したので再実行には再導入が要る。
 
 ## 試していないもの（外部の情報として記録されているだけ）
 

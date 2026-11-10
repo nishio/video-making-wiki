@@ -185,3 +185,7 @@
 - 書いていないもの: galleria の中のパス（選別用のページのパスも）、認証まわり、Grok の判定の notes
 - 11 節（720p と 1080p）は報告の 11 節の訂正を push 前に反映: 「1080p は良くない」ではなく「この判定（1 コマ幅 480 px に縮めた一覧画像）では差を見分けられない。費用は 1.8 倍」
 - public repo なので commit までで止め、push していない
+
+## [2026-11-11 02:09] lint | galleria の中のパスを wiki 全体から消した（西尾の決定、2026-11-11）
+- 12 ページ（sources/exp-galleria-local-video-generation・exp-local-scene-studio・exp-polis-magi-op・exp-puppetloom・exp-qualia-h3-live2d-galleria・exp-qualia-video・exp-sutra-videos-overview・exp-tsugigami-promo・web-check-flash-ea-iris・web-means-3d-blender-bpy-cli・web-means-voice-style-bert-vits2・web-means-voice-voicevox-aivisspeech-user-dictionary）: Windows のユーザーの下のパスを「galleria の作業場の <repo> の <ファイル>」や `<… の置き場>` に置き換えた。出典は repo とファイルの名前で示す
+- push 前の git grep（`C:/Users`・`C:\Users`・`claude-win`・`Users/nishi`）: 0 件。置かないもの全体の git grep も該当なし。git の履歴は書き換えていない
