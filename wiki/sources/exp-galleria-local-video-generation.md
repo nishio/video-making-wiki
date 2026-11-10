@@ -100,3 +100,7 @@ fp8 の本体は 14.3GB x 2（high noise と low noise）だが、同時には�
 
 - tsugigami の広告動画で、galleria から X Premium+ の枠の Grok Imagine（grok-imagine-image-2.0 で開始画像、grok-imagine-video-1.5 で i2v）を API 直叩きで 12 本。816×1104・24fps・約 6 秒で、1 本約 28 秒。人物の顔・手と、書く → 顔を上げて微笑む動きは、ローカルの 5B・A14B の実測（上）より指示に近かった（西尾が笑顔を採用。比較は統制されていない）
 - 「画面は真っ白のまま」と頼んでも書く動きに合わせて薄い線を描いた。その線を Pencil の真下のインクとして使った（[[exp-tsugigami-promo]]）
+
+### 2026-11-10 Grok Imagine の能力の実測
+
+- X Premium+ の週の枠を使い切って、Grok Imagine の video-1.5・lite・image-2.0 を 565 本・103 枚測った（[[exp-grok-imagine-capability-probe]]）。ローカルの Wan2.2 との比較はしていない

@@ -172,3 +172,16 @@
 - 載せていないもの: 残酷な般若心経のテーゼ（Mac の 6 本に無く、替え歌の権利の決着も未確認。nishio-works の Open Questions）
 - Updates: sources/exp-nishio-showreel、exp-sutra-videos-overview、exp-sutra-hype-editions、exp-sutra-songs-on-music、exp-sutra-sync-subtitles に URL
 - 修行や行事の場所、他人のチャンネルの動画は書いていない。entities/nishio-works の置き場所と名前は西尾の答え待ち
+
+## [2026-11-10 18:04] ingest | Grok Imagine の能力の実測（週の枠の余りを使った実験の報告から）
+- 新規: sources/exp-grok-imagine-capability-probe（REPORT.md の数値: 動画 565 本・静止画 103 枚、週の枠は約 430〜450 USD 相当、費用と速さの表、lite・参照画像・終わりの画像・keyframes・日本語の文字・画風・縦横比・発話・カメラワーク。判定は grok-4.3 が 6 コマの一覧画像で付けたもので人の目では見ていない、と明記）
+- Updates: concepts/expression-means・promo・talk・embed（手法）、sources/exp-tsugigami-promo（一致と食い違い: 生成の速さ）、exp-galleria-local-video-generation、exp-galleria-ffmpeg-measurement-and-delivery（i2v の aspect_ratio の無視を再確認。Updates の節を新設）
+- 書いていないもの: galleria の中のパスと運用の決まり、認証まわり、Grok の判定の notes
+- public repo なので commit までで止め、push していない
+
+## [2026-11-10 22:24] ingest | Grok Imagine の実測 22:30 版（残りの判定 668 件がすべて終わった）
+- sources/exp-grok-imagine-capability-probe: 本文は上書きせず、判定が未了と書いた箇所に「→ Updates」の印を付け、Updates「22:30 版」に 1 節 Q4・Y1（full と lite）、3 節 X3（参照 2 枚）、5 節 Q5・Q6、7 節 Y0・Y1・X1、7b 節（静止画 + lite × 4 と t2v full × 2）、9 節 X4、10 節 Q3（カメラワーク）、11 節（720p と 1080p）と、手法の表の直し。summary に要点を足した
+- Updates: concepts/expression-means・talk・promo・embed（解説の場面は静止画 + lite × 4 で t2v full × 2 と同じ品質を半分の費用、名前のついたカメラワークは通りにくい、画風付きの静止画からの i2v は full、参照 2 枚でキャラクターを図の中に置くのは効かない）
+- 書いていないもの: galleria の中のパス（選別用のページのパスも）、認証まわり、Grok の判定の notes
+- 11 節（720p と 1080p）は報告の 11 節の訂正を push 前に反映: 「1080p は良くない」ではなく「この判定（1 コマ幅 480 px に縮めた一覧画像）では差を見分けられない。費用は 1.8 倍」
+- public repo なので commit までで止め、push していない

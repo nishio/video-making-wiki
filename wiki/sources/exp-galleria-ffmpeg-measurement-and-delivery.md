@@ -54,3 +54,9 @@ sprite-gen という repo の記録を読んだもの。galleria-wiki も「本�
 ## Open Questions
 
 - 計測の手順（pts、HSV ヒストグラム、自己相関）は参考素材の切り出しのためだった。何の素材で何に使ったかは galleria-wiki に書かれていない。
+
+## Updates
+
+### 2026-11-10 i2v の `aspect_ratio` の無視を再確認
+
+- Grok Imagine の能力の実測でも、i2v は開始画像の比率になった（9:16 の画像に 16:9 を指定 → 720×1280）。t2v では `aspect_ratio` が効く（[[exp-grok-imagine-capability-probe]]）
