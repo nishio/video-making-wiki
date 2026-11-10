@@ -24,7 +24,7 @@ sources:
 | tsugigami の広告動画のメイキング（6:40、2026-11-09） | 26 秒の広告動画を、画面は本物・人物は生成でどう作ったかの解説 | プロセス動画の作りを写し、行の範囲と画面の表・語の時刻の測り方・引用の素材の長さを足した。書き出し四回 | https://youtu.be/aXGEaLMI7Fs | [[exp-tsugigami-making]] |
 | クオリアさんの解説動画 pilot「このクオリアさんは、どう作られた？」（93 秒、2026-08） | CC BY 4.0 のキャラクター「クオリアさん」がどう作られたかの解説 | galleria の Codex が作った。Pillow の静止スライド＋TTS（SAPI）＋PyAV | https://youtu.be/bW6c9y6MkYg | [[exp-qualia-video]] |
 | クオリアさんの解説動画 makingof「AI生成解説動画v2」（1:49、2026-08-11） | pilot のメイキング。Opus 5.5 以前の作り方の代表（西尾） | 同じ組み立てで、声を AivisSpeech（まお）に替えた | https://youtu.be/qntzIC2zNK8 | [[exp-qualia-video]] |
-| 「デジタル民主主義の川の流れを見る」事前動画（約 34 分、2025-11-27） | Code for Japan Summit 2025 の講演の持ち時間に収まらないスライドを、同じスライドで説明し直した動画 | 作り方の記録は無い | 公開先は未確認（YouTube に公開と記録がある） | [[exp-forest-misc-video-notes]] |
+| 「デジタル民主主義の川の流れを見る」事前動画（約 34 分、2025-11-27） | Code for Japan Summit 2025 の講演の持ち時間に収まらないスライドを、同じスライドで説明し直した動画 | 作り方の記録は無い | https://www.youtube.com/watch?v=qW3uzu4uU-A | [[exp-forest-misc-video-notes]] |
 
 ## embed（プレゼンの中に埋め込んで使う）
 
@@ -40,8 +40,8 @@ sources:
 |---|---|---|---|---|
 | tsugigami の広告動画（26 秒、YouTube ショート、2026-11-09） | 手書きノート Web アプリ tsugigami の広告 | 実アプリの録画（ペン入力はプログラムから）と Grok Imagine の人物動画を、画面の四隅の追跡ではめ込んで合成。v1〜v6 | https://youtube.com/shorts/1qKsNrwIxCk | [[exp-tsugigami-promo]] |
 | Visual Jev 4BでGyazoを仕分ける — 1万枚をGPUで44分（47 秒、2026-09-29） | 約 13 万枚の画像の配信再開の前に、ローカルのモデルで仕分けた作業を伝える | canvas に描いて撮り、BGM は numpy で合成。2分52秒 → 1分55秒 → 47 秒のハイテンポ版へ作り直した。西尾の評価は「Jevの凄さのアピール重視で技術の詳細を伝えるには適切ではない」 | https://youtu.be/3YlYrPGbluA | [[exp-gyazo-resumption-video]] |
-| 西尾の自己紹介のショーリール 15 秒（日本語・英語・縦長ショート、2026-09-27） | 1 つの点が形を変えて経歴をたどるモーショングラフィックス。写真なし | canvas に描いて撮る型を最初に作った作品。粒子 2400 個、BGM は numpy で合成 | 公開先は未確認（YouTube に公開と記録がある） | [[exp-nishio-showreel]] |
-| デジタル民主主義の川の流れを見る — 60 秒版（2026-09-29） | 34 分の講演を、X の無音の自動再生でも字幕だけで通じる 60 秒の動画に | 上の型を流用。字幕と合成 BGM だけ、写真なし。X 用は最初のコマにサムネイル | 公開先は未確認（X と YouTube に投稿と記録がある） | [[exp-democracy-river-video]] |
+| 西尾の自己紹介のショーリール 15 秒（日本語・英語・縦長ショート、2026-09-27） | 1 つの点が形を変えて経歴をたどるモーショングラフィックス。写真なし | canvas に描いて撮る型を最初に作った作品。粒子 2400 個、BGM は numpy で合成 | 日本語 https://youtu.be/l7P2YNQQEnU 、英語 https://youtu.be/xSXn2iGzys0 、縦長ショート https://youtube.com/shorts/8Ao3mrbEVMU | [[exp-nishio-showreel]] |
+| デジタル民主主義の川の流れを見る — 60 秒版（2026-09-29） | 34 分の講演を、X の無音の自動再生でも字幕だけで通じる 60 秒の動画に | 上の型を流用。字幕と合成 BGM だけ、写真なし。X 用は最初のコマにサムネイル | 日本語 https://www.youtube.com/watch?v=QElvtdsQgdQ （X にも投稿） | [[exp-democracy-river-video]] |
 
 ## 手順書の段から見る事例
 
@@ -58,7 +58,15 @@ sources:
 
 ## Open Questions
 
-- 公開先が未確認の 3 件（ショーリール 15 秒、デジタル民主主義の川 60 秒版、34 分の事前動画）の URL。作業場の README・UPLOAD.md（~/nishio-showreel、~/democracy-river-video）か西尾のチャンネルで確かめて足す
+- （答えが出た）公開先が未確認だった 3 件の URL → 2026-11-10 の Updates
 - このページに載せていない作品と理由は、2026-11-10 の log.md の項に書いた
 
 ## Updates
+
+### 2026-11-10 公開先が未確認だった 3 件の URL
+
+- Mac の作業場から（~/nishio-showreel/README.md の「公開（YouTube, 2026-09-27）」の表、~/democracy-river-video/youtube/UPLOAD.md・UPLOAD_en.md）。表の「公開」の列を「公開先は未確認」から URL に直した
+  - ショーリール 15 秒: 日本語 https://youtu.be/l7P2YNQQEnU 、英語 https://youtu.be/xSXn2iGzys0 、縦長ショート https://youtube.com/shorts/8Ao3mrbEVMU
+  - デジタル民主主義の川 60 秒版（日本語）: https://www.youtube.com/watch?v=QElvtdsQgdQ
+  - 「デジタル民主主義の川の流れを見る」34 分の事前動画: https://www.youtube.com/watch?v=qW3uzu4uU-A
+- ショーリール 1 分版は README に URL があるが、写真の大半が第三者の撮影なので、載せないままにした

@@ -157,3 +157,11 @@
 - Updates: concepts/talk・promo・embed・three-video-types、analyses/talk-video-making-2026-11（1〜6・8・9 の段の頭に事例）
 
 ## [2026-11-10 10:03] lint | 247 ページ、重複・孤立・壊れたリンク・未登録・フロントマター不備すべて 0
+
+## [2026-11-10 12:44] filing-back | 事例紹介の「公開先は未確認」3 件に URL（Mac の作業場の README・UPLOAD.md から）、repo が public になったことを CLAUDE.md・index に反映
+- entities/nishio-works: ショーリール 15 秒（日本語・英語・縦長ショート）、デジタル民主主義の川 60 秒版（日本語）、34 分の事前動画の URL を表に入れ、Updates に出どころ。ショーリール 1 分版は URL があるが第三者の撮影の写真のため載せないまま。川の英語 87 秒版は URL が届いていないので載せないまま
+- Updates: sources/exp-nishio-showreel、exp-democracy-river-video、exp-forest-misc-video-notes に URL
+- CLAUDE.md・index.md: 正本の GitHub を private → public。CLAUDE.md の置かないものに「public repo なので、push 前に置かないものが入っていないか git grep で確かめる」
+- push 前の git grep（Restricted・Windows の private のパス・認証情報・社内・私生活の語など）: 置かないものの該当なし
+- README の「この wiki から作った動画」に 3 本目（tsugigami の広告動画のメイキング「広告動画を AI と作った ― 画面は本物、人物は生成」、aXGEaLMI7Fs）をサムネイルのリンクで足し、広告動画本体（YouTube ショート）と exp-tsugigami-making・exp-tsugigami-promo へつないだ（西尾の追加の依頼）
+- 西尾の答え待ち: sutra-videos の扱い、entities/nishio-works の置き場所

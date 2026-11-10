@@ -12,7 +12,15 @@
 
 [![「動画の作り方」の作り方](https://img.youtube.com/vi/Ezzcld2rbL8/hqdefault.jpg)](https://youtu.be/Ezzcld2rbL8)
 
-どちらも、台本と映像を描くコードは Claude Opus 5.5（人が確認・修正）、声は AivisSpeech（まお）。作った経験は [wiki/sources/exp-explainer-video-2026-11.md](wiki/sources/exp-explainer-video-2026-11.md)。
+上の 2 本を作った経験は [wiki/sources/exp-explainer-video-2026-11.md](wiki/sources/exp-explainer-video-2026-11.md)。
+
+**広告動画を AI と作った ― 画面は本物、人物は生成**（6 分 40 秒）— 手書きノートの Web アプリ tsugigami の 26 秒の広告動画（[YouTube ショート](https://youtube.com/shorts/1qKsNrwIxCk)）を、アプリの画面は本物の録画、人物は生成でどう作ったかを見せるメイキング。上のプロセス動画の作りを写して作った 3 本目。
+
+[![広告動画を AI と作った ― 画面は本物、人物は生成](https://img.youtube.com/vi/aXGEaLMI7Fs/hqdefault.jpg)](https://youtu.be/aXGEaLMI7Fs)
+
+作った経験は [wiki/sources/exp-tsugigami-making.md](wiki/sources/exp-tsugigami-making.md)、広告動画そのものは [wiki/sources/exp-tsugigami-promo.md](wiki/sources/exp-tsugigami-promo.md)。
+
+3 本とも、台本と映像を描くコードは Claude Opus 5.5（人が確認・修正）、声は AivisSpeech（まお）。広告動画の人物の映像は Grok Imagine で生成した。
 
 ## 入口
 

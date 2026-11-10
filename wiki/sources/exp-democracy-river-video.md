@@ -95,3 +95,8 @@ sources:
 
 - 英語版の `gpt-4o-mini-tts` は、2027-01-06 に終了する（2026-10-01 告知）。後継は `/v1/audio/speech` で使えないので、作り直すときは API の作りから変わる（[[web-means-voice-google-azure-openai-elevenlabs-tts]]）
 - `loudnorm=I=-16:TP=-1.5:LRA=11` は 1 パスなので dynamic で動いている（[[web-check-loudness-ffmpeg-loudnorm-ebur128]]）
+
+### 2026-11-10 公開 URL（Mac の作業場から）
+
+- ~/democracy-river-video/youtube/UPLOAD.md・UPLOAD_en.md より: 日本語 60 秒版 https://www.youtube.com/watch?v=QElvtdsQgdQ 、元の講演の 34 分の事前動画 https://www.youtube.com/watch?v=qW3uzu4uU-A 。事例紹介 [[nishio-works]] に載せた
+- 英語 87 秒版の URL は届いていない

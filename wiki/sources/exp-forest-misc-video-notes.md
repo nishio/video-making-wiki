@@ -87,3 +87,7 @@ Movez の X 長文（2026-09-27、Opus 5.5 でモーション動画を作る手�
 ### 2026-11-09 第 3 回サーベイから
 
 - 「JASRAC の包括契約が効くのは作曲の権利だけ」は、公式には「作詞・作曲」。原盤は別、は公式と一致する。替え歌は作詞者・作曲者の意向の確認が要り、宣伝の動画は広告目的複製の手続きが要る（[[web-rights-jasrac-nextone-ugc-music]]）
+
+### 2026-11-10 34 分の事前動画の URL
+
+- 「デジタル民主主義の川の流れを見る」の事前動画: https://www.youtube.com/watch?v=qW3uzu4uU-A （Mac の ~/democracy-river-video/youtube/UPLOAD.md・UPLOAD_en.md より）。事例紹介 [[nishio-works]] に載せた

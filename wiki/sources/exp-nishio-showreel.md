@@ -86,3 +86,8 @@ URL と出典リンクは `~/nishio-showreel/README.md` と `youtube/UPLOAD*.md`
 ## Updates
 
 - 2026-11-09: 15 秒版の依頼文は、Opus 5.5 の公開（2026-09-22）直後に流行した「履歴書用のショーリール」の一行プロンプトの形（[[web-movez-opus-motion-design-course]]）。西尾「Opus5.5がすごいってなった」後の最初の制作。時系列は [[exp-timeline-2026]]
+
+### 2026-11-10 公開 URL（Mac の作業場から）
+
+- ~/nishio-showreel/README.md の「公開（YouTube, 2026-09-27）」の表より: 15 秒 日本語 https://youtu.be/l7P2YNQQEnU 、英語 https://youtu.be/xSXn2iGzys0 、縦長ショート https://youtube.com/shorts/8Ao3mrbEVMU 。事例紹介 [[nishio-works]] に載せた
+- 1 分版の URL も README にあるが、写真の大半が第三者の撮影なので、この wiki には書かない
