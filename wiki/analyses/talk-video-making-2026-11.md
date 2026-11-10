@@ -287,3 +287,8 @@ ffmpeg -y -i out/explainer_draft$N.mp4 -c:v libx264 -crf 30 -preset slow -vf sca
 - この手順は「台本を AI が書き、声は合成、映像はコードで描く」解説に限る。実物を撮る解説（画面収録・実写）は 3 本に無い
 
 ## Updates
+
+### 2026-11-10 西尾の決定（Mac の対話から）
+
+- このページの置き場所（analyses/）と名前（talk-video-making-2026-11）は今のままでよい
+- 閃光の検査: 図と字幕が中心の動画ではしなくてよい。「7. 検査」の「写しに無いもの」と Open Questions の「閃光の検査は 3 本ともした記録が無い…要るかは決めていない」への答え。点滅や速いカットのある動画（promo など）の検査は [[checks-and-finishing]] のまま

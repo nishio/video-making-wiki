@@ -126,3 +126,7 @@
 - Updates: concepts/talk、concepts/promo、sources/exp-tsugigami-promo、sources/exp-explainer-video-2026-11、sources/exp-html-capture-pipeline
 
 ## [2026-11-09 23:04] lint | 246 ページ、重複・孤立・壊れたリンク・未登録・フロントマター不備すべて 0
+
+## [2026-11-10 09:35] filing-back | talk-video-making-2026-11 に西尾の決定 2 つ（置き場所と名前はそのまま、図と字幕が中心の動画では閃光の検査をしない）
+
+- Mac の対話から。コードを写すか共通にするか（議論中）と、プロセス動画の AI の使用の答え（保留）は触っていない
