@@ -189,3 +189,7 @@
 ## [2026-11-11 02:09] lint | galleria の中のパスを wiki 全体から消した（西尾の決定、2026-11-11）
 - 12 ページ（sources/exp-galleria-local-video-generation・exp-local-scene-studio・exp-polis-magi-op・exp-puppetloom・exp-qualia-h3-live2d-galleria・exp-qualia-video・exp-sutra-videos-overview・exp-tsugigami-promo・web-check-flash-ea-iris・web-means-3d-blender-bpy-cli・web-means-voice-style-bert-vits2・web-means-voice-voicevox-aivisspeech-user-dictionary）: Windows のユーザーの下のパスを「galleria の作業場の <repo> の <ファイル>」や `<… の置き場>` に置き換えた。出典は repo とファイルの名前で示す
 - push 前の git grep（`C:/Users`・`C:\Users`・`claude-win`・`Users/nishi`）: 0 件。置かないもの全体の git grep も該当なし。git の履歴は書き換えていない
+
+## [2026-11-11 23:13] filing-back | 事例紹介の置き場所と名前は今のまま（西尾の答え）、書かないものの出どころの直し
+- entities/nishio-works: Open Questions に「（答えが出た）このページの置き場所と名前」、Updates に 2026-11-11 の項。2026-11-10 の Updates の「修行や行事の場所、他人のチャンネルの動画は書かない」の出どころを「西尾の指示」→「Mac の Claude の依頼」に直した
+- 残酷な般若心経のテーゼを載せるかは西尾の答え待ちのまま（Open Questions はそのまま）
