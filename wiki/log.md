@@ -193,3 +193,7 @@
 ## [2026-11-11 23:13] filing-back | 事例紹介の置き場所と名前は今のまま（西尾の答え）、書かないものの出どころの直し
 - entities/nishio-works: Open Questions に「（答えが出た）このページの置き場所と名前」、Updates に 2026-11-11 の項。2026-11-10 の Updates の「修行や行事の場所、他人のチャンネルの動画は書かない」の出どころを「西尾の指示」→「Mac の Claude の依頼」に直した
 - 残酷な般若心経のテーゼを載せるかは西尾の答え待ちのまま（Open Questions はそのまま）
+
+## [2026-11-13 03:53] filing-back | 事例紹介に残酷な般若心経のテーゼ（西尾の答え）
+- entities/nishio-works: 「経文・真言の動画」の節に一行（https://youtu.be/i0mZXxlrxzY 、oembed で西尾のチャンネルと確認）。Open Questions を「答えが出た」に、Updates に 2026-11-13 の項
+- CyEC2 に VPN で届かなかったので Mac の複製で書いた
