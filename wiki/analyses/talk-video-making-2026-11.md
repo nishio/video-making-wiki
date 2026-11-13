@@ -258,6 +258,7 @@ NOSUB=1 node capture.mjs stills 3 # 字幕なし（プロセス・メイキン�
 - 起きた: Homebrew の Python 3.13/3.14 の numpy が壊れていた。次は: 動く版（3.11）で回し、README に書く（[[exp-html-capture-pipeline]]）
 - 起きた: CyEC2（aarch64）で、~/.cache/puppeteer の Chrome（フォルダ名が linux_arm のものも）が x86-64 の実行ファイルで「Exec format error」になり撮れなかった。気づいた: `chrome --version` を実行して。次は: arm64 の機械では Playwright の headless shell（`npx playwright install chromium-headless-shell`、playwright-core から `chromium.launch`）で撮る（2026-11-13、CyEC2 の ~/llm-wiki-explainer-video の src/capture.mjs、1 本で確かめた）
 - 起きた: Mac の外では Hiragino Sans が無く、代わりの字体で撮られる。次は: Noto Sans JP（OFL）を作業場に置いて @font-face で読み、撮る前に `document.fonts.check` で読めたかを確かめ、読めていなければ止める（2026-11-13、CyEC2 の ~/llm-wiki-explainer-video の src/capture.mjs）
+- 起きた: 2 本目の撮影を 1 本目の終わりの後に回そうと、`while pgrep -f "node capture.mjs video"; do sleep 10; done; …` を裏で走らせたら、条件の文字列を含むループのシェル自身に pgrep -f が当たり続け、1 本目が終わっても 11 時間あまり抜けなかった。気づいた: Mac の Claude が出力の空の out/ と、ループのシェルの PID を見て。次は: 待ちは撮影のプロセスの PID を控えて `wait`（または `while kill -0 <PID>`）にする。pgrep -f を使うなら自己一致しない形（`pgrep -x node` と引数の確かめ）にし、待ちの上限の時間を付ける（2026-11-13〜14、CyEC2 の ~/logos-explainer-video）
 
 ## 6. 引用の重ね
 

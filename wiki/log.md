@@ -199,3 +199,5 @@
 - CyEC2 に VPN で届かなかったので Mac の複製で書いた
 
 ## [2026-11-13 17:30] filing-back | talk の手順書に 3 行: 骨組みの段の尺の見込みが台本で 1.5 倍に、aarch64 で puppeteer の Chrome が動かず Playwright の headless shell、Mac の外の字体（CyEC2 の LLM Wiki / Project Logos の解説動画から）
+
+## [2026-11-14 04:42] filing-back | talk の手順書 5 に 1 行: 撮影の終わりを pgrep -f で待つとループ自身に当たって抜けない。PID を控えて wait（CyEC2 の Project Logos の解説動画から）
