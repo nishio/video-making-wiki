@@ -197,3 +197,5 @@
 ## [2026-11-13 03:53] filing-back | 事例紹介に残酷な般若心経のテーゼ（西尾の答え）
 - entities/nishio-works: 「経文・真言の動画」の節に一行（https://youtu.be/i0mZXxlrxzY 、oembed で西尾のチャンネルと確認）。Open Questions を「答えが出た」に、Updates に 2026-11-13 の項
 - CyEC2 に VPN で届かなかったので Mac の複製で書いた
+
+## [2026-11-13 17:30] filing-back | talk の手順書に 3 行: 骨組みの段の尺の見込みが台本で 1.5 倍に、aarch64 で puppeteer の Chrome が動かず Playwright の headless shell、Mac の外の字体（CyEC2 の LLM Wiki / Project Logos の解説動画から）

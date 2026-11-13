@@ -83,6 +83,7 @@ youtube/UPLOAD.md    投稿の設定・タイトル・説明欄
 - 起きた: 作業の順に数字を並べて作業報告になった。気づいた: 西尾のフィードバック。次は: 主役（モデル名と実測）を決めて、そこに尺を割く（[[exp-gyazo-resumption-video]]、[[experience-lessons-2026-11]]）
 - 起きた: 細かい数値（version・seed・hash・codec）を読み上げた。気づいた: 人の評価「細かい数値を耳で聞くのが辛い」。次は: 細かい数値は資料に移して読まない。最初の 1 分で目的と関心を作る（[[exp-qualia-video]]）
 - 起きた: 尺の見込みが 2 本とも公開の長さより約 40 秒短かった。気づいた: 公開の長さと比べて。次は: 字数からの見込みに、行間 0.45 秒・節の間 1.2 秒・頭と終わりの無音を足す（[[talk-three-videos-2026-11]]）
+- 起きた: 骨組み（項目の箇条）の段で字数を見込んで尺を約 3 分半と書いたが、台本にすると字数が 1.5〜1.7 倍（780 字の見込み → 1,331 字）になり、見積もりの尺は 4:28 になった。気づいた: 台本から lines.json を作って時刻表を見積もったとき。次は: 尺の案を出す前に台本の一節だけでも文にして字数を測る。尺の案は「台本にしたら測り直す」と添える（2026-11-13、CyEC2 の ~/logos-explainer-video、1 本で確かめた）
 
 ## 2. 事実確認
 
@@ -255,6 +256,8 @@ NOSUB=1 node capture.mjs stills 3 # 字幕なし（プロセス・メイキン�
 - 起きた: 音の聞き比べが、何が始まるのか分からないまま鳴った。気づいた: 西尾「音の聴き比べの前には聴き比べが始まるというひとことがひつよう」。次は: 始まる前の一言と、鳴っている音の名札を出す（[[exp-explainer-video-2026-11]]）
 - 起きた: 飾りの場面絵が画面の 36% を占めた。気づいた: 人の評価「意味のない飾り画像の面積が多すぎる」。次は: 実画像・工程・比較といった証拠に面積を配る（[[exp-qualia-video]]）
 - 起きた: Homebrew の Python 3.13/3.14 の numpy が壊れていた。次は: 動く版（3.11）で回し、README に書く（[[exp-html-capture-pipeline]]）
+- 起きた: CyEC2（aarch64）で、~/.cache/puppeteer の Chrome（フォルダ名が linux_arm のものも）が x86-64 の実行ファイルで「Exec format error」になり撮れなかった。気づいた: `chrome --version` を実行して。次は: arm64 の機械では Playwright の headless shell（`npx playwright install chromium-headless-shell`、playwright-core から `chromium.launch`）で撮る（2026-11-13、CyEC2 の ~/llm-wiki-explainer-video の src/capture.mjs、1 本で確かめた）
+- 起きた: Mac の外では Hiragino Sans が無く、代わりの字体で撮られる。次は: Noto Sans JP（OFL）を作業場に置いて @font-face で読み、撮る前に `document.fonts.check` で読めたかを確かめ、読めていなければ止める（2026-11-13、CyEC2 の ~/llm-wiki-explainer-video の src/capture.mjs）
 
 ## 6. 引用の重ね
 
